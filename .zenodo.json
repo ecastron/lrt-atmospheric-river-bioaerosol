@@ -1,0 +1,79 @@
+{
+  "title": "Analysis code for: Atmospheric river-driven delivery of Patagonian bioaerosol to the Antarctic Peninsula",
+  "upload_type": "software",
+  "description": "Scripts for amplicon processing (16S rRNA gene, ITS1, 18S rRNA gene), contamination assessment, community and phylogenetic analyses, source tracking, functional inference, shotgun marker-gene recruitment and figures for the study of airborne microbial transport from southern Patagonia to the Antarctic Peninsula during the 7-8 February 2022 atmospheric river. Raw reads: NCBI SRA BioProject PRJNA1540148.",
+  "creators": [
+    {
+      "name": "Castro-Nallar, Eduardo",
+      "orcid": "0000-0003-4384-8661",
+      "affiliation": "Universidad de Talca"
+    },
+    {
+      "name": "Guajardo-Leiva, Sergio",
+      "orcid": "0000-0003-3083-4375",
+      "affiliation": "Universidad de Talca"
+    },
+    {
+      "name": "Poblete-Castro, Ignacio",
+      "orcid": "0000-0001-6649-0389",
+      "affiliation": "Universidad de Santiago de Chile"
+    },
+    {
+      "name": "Bozkurt, Deniz",
+      "orcid": "0000-0003-1021-8241",
+      "affiliation": "University of Valparaíso"
+    },
+    {
+      "name": "Opazo, Charlie",
+      "orcid": "0009-0002-9178-2222",
+      "affiliation": "Universidad de Chile"
+    },
+    {
+      "name": "Molina-Montenegro, Marco",
+      "orcid": "0000-0001-6801-8942",
+      "affiliation": "Universidad de Talca"
+    },
+    {
+      "name": "Díez, Beatriz",
+      "orcid": "0000-0002-9371-8083",
+      "affiliation": "Universidad Mayor"
+    },
+    {
+      "name": "Huneeus, Nicolás",
+      "orcid": "0000-0002-6214-5518",
+      "affiliation": "Universidad de Chile"
+    },
+    {
+      "name": "Mailler, Sylvain",
+      "orcid": "0000-0002-4287-713X",
+      "affiliation": "Laboratoire de Météorologie Dynamique (LMD/IPSL)"
+    },
+    {
+      "name": "Lapere, Rémy",
+      "orcid": "0000-0001-8311-0042",
+      "affiliation": "LATMOS/IPSL"
+    },
+    {
+      "name": "Galbán-Malagón, Cristóbal",
+      "orcid": "0000-0001-8397-5804",
+      "affiliation": "Universidad Mayor"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "bioaerosol",
+    "atmospheric river",
+    "Antarctica",
+    "Patagonia",
+    "16S rRNA",
+    "long-range transport",
+    "metagenomics"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "PRJNA1540148",
+      "relation": "isSupplementTo",
+      "scheme": "other"
+    }
+  ]
+}
