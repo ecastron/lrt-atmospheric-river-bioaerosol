@@ -40,3 +40,7 @@ reads_out/
 .Rproj.user/
 __pycache__/
 *.pyc
+
+# CHIMERE pDUST plot and the series recovered from it (inputs for Supplementary Figure 7)
+!atmospheric_simulations/CHIMERE/ts_Risopatron_pDUST.pdf
+!atmospheric_simulations/CHIMERE/pdust_risopatron_from_plot.csv

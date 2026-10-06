@@ -285,11 +285,15 @@ pC_attr <- ggplot(attr_rows, aes(Source, Taxon, fill = prev)) +
                       labels = scales::percent_format(),
                       na.value = "gray92",
                       name = "Source\nprevalence") +
-  scale_y_discrete(drop = FALSE) +
+  # italic only for genus names (incl. composites such as Methylobacterium-Methylorubrum); "Unassigned",
+  # "Other" and clade names such as "OM60(NOR5) clade" stay upright
+  scale_y_discrete(drop = FALSE, labels = function(x) as.expression(lapply(x, function(s)
+    if (grepl("^[A-Z][a-z]+(-[A-Z][a-z]+)*$", s) && !s %in% c("Unassigned", "Other"))
+      bquote(italic(.(s))) else bquote(plain(.(s)))))) +
   labs(x = NULL, y = NULL) +
   theme_bw(base_size = 8) +
   theme(axis.text.x      = element_text(angle = 45, hjust = 1, size = 6.5),
-        axis.text.y      = element_text(face = "italic", size = 6.5),
+        axis.text.y      = element_text(size = 6.5),
         panel.grid       = element_blank(),
         legend.position  = "right",
         legend.key.height = unit(6, "mm"),
@@ -369,11 +373,11 @@ phy_long <- pd_df |>
   mutate(metric = factor(metric,
                          levels = c("Faith_PD", "MPD", "NRI"),
                          labels = c("Faith's PD", "MPD",
-                                    "NRI (-ses.mpd)")))
+                                    "NRI")))
 
 pD <- ggplot(phy_long, aes(date, value)) +
   ar_rect +
-  geom_hline(data = data.frame(metric = factor("NRI (-ses.mpd)",
+  geom_hline(data = data.frame(metric = factor("NRI",
                                                levels = levels(phy_long$metric))),
              aes(yintercept = 0),
              linetype = 3, color = "gray40") +

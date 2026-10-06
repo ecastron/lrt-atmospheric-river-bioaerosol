@@ -197,3 +197,11 @@ pal_stegen_process <- c(
   "Dispersal limitation"   = "#E69F00",
   "Drift (undominated)"    = "#BBBBBB"
 )
+
+# --- CHIMERE nested model domains (Supplementary Figure 7). Outer domain
+# light, innermost dark, so resolution reads as color depth.
+pal_chimere_domain <- c(
+  "d01" = "#74A9CF",
+  "d02" = "#3690C0",
+  "d03" = "#034E7B"
+)

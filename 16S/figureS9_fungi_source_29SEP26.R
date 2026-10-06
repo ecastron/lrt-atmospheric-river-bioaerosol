@@ -112,14 +112,17 @@ p <- ggplot(present, aes(pool, Genus)) +
                        labels = function(x) format(x, drop0trailing = TRUE, scientific = FALSE),
                        guide = guide_colorbar(barheight = 6)) +
   scale_x_discrete(labels = pool_lab) +
-  scale_y_discrete(labels = function(x) sub("_gen_Incertae_sedis$", " (genus incertae sedis)", x)) +
+  # genus names italic; taxa without a genus ("<Order>_gen_Incertae_sedis") upright
+  scale_y_discrete(labels = function(x) as.expression(lapply(x, function(s)
+    if (grepl("_gen_Incertae_sedis$", s)) bquote(plain(.(sub("_gen_Incertae_sedis$", " (genus incertae sedis)", s))))
+    else bquote(italic(.(s)))))) +
   facet_grid2(class ~ pool_grp, scales = "free", space = "free",
               strip = strip,
               labeller = labeller(class = label_wrap_gen(16))) +
   labs(x = NULL, y = NULL) +
   theme_bw(base_size = 8) +
   theme(axis.text.x   = element_text(size = 7, lineheight = 0.9),
-        axis.text.y   = element_text(face = "italic", size = 7),
+        axis.text.y   = element_text(size = 7),
         strip.text.y  = element_text(angle = 0, size = 7),
         strip.text.x  = element_text(size = 7.5, face = "bold"),
         panel.grid.major = element_line(color = "gray92"),

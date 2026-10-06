@@ -123,7 +123,7 @@ has its own README. The R scripts in `shotgun_metagenomics/scripts/` run locally
 | Supplementary Figure 4 | `shotgun_metagenomics/scripts/air_nife_hyddb_29SEP26.R` |
 | Supplementary Figure 5 | `wind_rose/fix_decimal_separator_02OCT26.py`, `wind_rose/wind_rose_phases_02OCT26.R`, `16S/figureS5_synoptic_02OCT26.py` |
 | Supplementary Figure 6 | HYSPLIT back-trajectories (separate model runs, not in this repository) |
-| Supplementary Figure 7 | CHIMERE simulations (separate model runs, not in this repository) |
+| Supplementary Figure 7 | `atmospheric_simulations/CHIMERE/extract_pdust_risopatron.py` (recovers the pDUST series at Risopatron from the CHIMERE time-series plot `ts_Risopatron_pDUST.pdf`; the model runs themselves are not in this repository), then `atmospheric_simulations/CHIMERE/figureS7_pdust_risopatron.R` |
 | Supplementary Figure 8 | `16S/decontam_controls_11MAY26.R`, `16S/decontam_betaNTI_01OCT26.R`, `16S/figureS8_decontam_checks_01OCT26.R` |
 | Supplementary Figure 9 | `16S/figureS9_fungi_source_29SEP26.R` |
 | Supplementary Table 1 | `16S/patagonia_transfer_sweep_02OCT26.R`, `16S/supp_table1_patagonia_shared_asvs_02OCT26.py` |
@@ -163,4 +163,4 @@ MIT. See `LICENSE`.
 
 Castro-Nallar E, Guajardo-Leiva S, Poblete-Castro I, Bozkurt D, Opazo C, Molina-Montenegro M, Díez B, Huneeus N,
 Mailler S, Lapere R, Galbán-Malagón C. Atmospheric river-driven delivery of Patagonian bioaerosol to the Antarctic
-Peninsula. In preparation. Code archived on Zenodo: https://doi.org/10.5281/zenodo.23189651 (v1.0: https://doi.org/10.5281/zenodo.23189652).
+Peninsula. In preparation. Code archived on Zenodo: https://doi.org/10.5281/zenodo.23189651 (all versions).
