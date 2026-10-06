@@ -1,0 +1,42 @@
+Function,n_records,Cycle
+chemoheterotrophy,6040,Carbon cycle
+aerobic_chemoheterotrophy,4853,Carbon cycle
+fermentation,350,Carbon cycle
+aromatic_compound_degradation,267,Carbon cycle
+cellulolysis,155,Carbon cycle
+hydrocarbon_degradation,98,Carbon cycle
+aromatic_hydrocarbon_degradation,21,Carbon cycle
+reductive_acetogenesis,5,Carbon cycle
+methylotrophy,142,Methane cycle
+methanol_oxidation,117,Methane cycle
+methanotrophy,24,Methane cycle
+aliphatic_non_methane_hydrocarbon_degradation,19,Methane cycle
+nitrate_reduction,462,Nitrogen cycle
+nitrogen_respiration,341,Nitrogen cycle
+nitrate_respiration,340,Nitrogen cycle
+nitrification,156,Nitrogen cycle
+aerobic_ammonia_oxidation,151,Nitrogen cycle
+nitrogen_fixation,58,Nitrogen cycle
+denitrification,25,Nitrogen cycle
+nitrite_respiration,25,Nitrogen cycle
+nitrate_denitrification,24,Nitrogen cycle
+nitrite_denitrification,24,Nitrogen cycle
+aerobic_nitrite_oxidation,5,Nitrogen cycle
+ureolysis,152,Other redox
+dark_hydrogen_oxidation,41,Other redox
+iron_respiration,24,Other redox
+phototrophy,178,Phototrophy
+nonphotosynthetic_cyanobacteria,147,Phototrophy
+photoautotrophy,123,Phototrophy
+oxygenic_photoautotrophy,109,Phototrophy
+photosynthetic_cyanobacteria,109,Phototrophy
+photoheterotrophy,69,Phototrophy
+anoxygenic_photoautotrophy,14,Phototrophy
+respiration_of_sulfur_compounds,65,Sulfur cycle
+sulfate_respiration,40,Sulfur cycle
+dark_oxidation_of_sulfur_compounds,25,Sulfur cycle
+thiosulfate_respiration,22,Sulfur cycle
+dark_sulfide_oxidation,8,Sulfur cycle
+dark_sulfur_oxidation,8,Sulfur cycle
+dark_sulfite_oxidation,7,Sulfur cycle
+dark_thiosulfate_oxidation,5,Sulfur cycle

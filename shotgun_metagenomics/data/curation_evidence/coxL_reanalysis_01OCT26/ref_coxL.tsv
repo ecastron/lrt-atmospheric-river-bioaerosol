@@ -1,0 +1,68 @@
+id	set	form	accession	organism	phylum	motif	length
+REF000_FI_Afipia_carboxidovorans_strain_ATCC__P19919	named_formI	I	P19919	Afipia carboxidovorans (strain ATCC 49405 / DSM 1227 / KCTC 32145 / OM5) (Oligotropha carboxidovorans)	Pseudomonadota	AYRCSFR	809
+REF001_FI_Hydrogenophaga_pseudoflava_Pseudomo_P19913	named_formI	I	P19913	Hydrogenophaga pseudoflava (Pseudomonas carboxydoflava)	Pseudomonadota	AYRCSFR	803
+REF002_FI_Mycolicibacterium_smegmatis_strain__A0QQG4	named_formI	I	A0QQG4	Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium smegmatis)	Actinomycetota	AYACSFR	799
+REF003_FI_Thermomicrobium_roseum_strain_ATCC__B9L450	named_formI	I	B9L450	Thermomicrobium roseum (strain ATCC 27502 / DSM 5159 / P-2)	Thermomicrobiota	AYRCSFR	781
+REF004_FI_Thermogemmatispora_tikiterensis_A0A328VRJ9	named_formI	I	A0A328VRJ9	Thermogemmatispora tikiterensis	Chloroflexota	AYRCSFR	791
+REF005_FI_Thermogemmatispora_aurantia_A0A5J4K876	named_formI	I	A0A5J4K876	Thermogemmatispora aurantia	Chloroflexota	AYRCSFR	791
+REF006_FI_Ktedonobacter_racemifer_DSM_44963_D6TQ73	named_formI	I	D6TQ73	Ktedonobacter racemifer DSM 44963	Chloroflexota	AYRCSFR	789
+REF007_FI_Paraburkholderia_xenovorans_strain__Q13IY1	named_formI	I	Q13IY1	Paraburkholderia xenovorans (strain LB400)	Pseudomonadota	AYRCSFR	803
+REF008_FI_Paraburkholderia_xenovorans_strain__Q13YL7	named_formI	I	Q13YL7	Paraburkholderia xenovorans (strain LB400)	Pseudomonadota	AYRCSFR	803
+REF009_FI_Cupriavidus_numazuensis_A0ABM8THX1	named_formI	I	A0ABM8THX1	Cupriavidus numazuensis	Pseudomonadota	AYRCSFR	804
+REF010_FI_Cupriavidus_laharis_A0ABM8WM43	named_formI	I	A0ABM8WM43	Cupriavidus laharis	Pseudomonadota	AYRCSFR	803
+REF011_FI_Actibacterium_lipolyticum_A0A238JPJ5	broad	I	A0A238JPJ5	Actibacterium lipolyticum	Pseudomonadota	AYRCSFR	806
+REF012_FI_Bacillus_methanolicus_strain_MGA3_A_I3E8H4	broad	I	I3E8H4	Bacillus methanolicus (strain MGA3 / ATCC 53907)	Bacillota	AYRCSFR	783
+REF013_FI_Capillimicrobium_parvum_A0A9E6Y1X1	broad	I	A0A9E6Y1X1	Capillimicrobium parvum	Actinomycetota	AYACSFR	807
+REF014_FI_Deinococcus_caeni_A0ABP9UI58	broad	I	A0ABP9UI58	Deinococcus caeni	Deinococcota	AYRCSFR	792
+REF015_FI_Antarctobacter_heliothermus_A0A222E7I6	broad	I	A0A222E7I6	Antarctobacter heliothermus	Pseudomonadota	AYRCSFR	805
+REF016_FI_Mycobacterium_attenuatum_A0A498PSI1	broad	I	A0A498PSI1	Mycobacterium attenuatum	Actinomycetota	AYACSFR	802
+REF017_FI_Meiothermus_granaticius_NBRC_107808_A0A399F476	broad	I	A0A399F476	Meiothermus granaticius NBRC 107808	Deinococcota	AYRCSFR	799
+REF018_FI_Bradyrhizobium_cosmicum_A0AAI8QEB8	broad	I	A0AAI8QEB8	Bradyrhizobium cosmicum	Pseudomonadota	AYRCSFR	806
+REF019_FI_Mycolicibacterium_chitae_Mycobacter_A0A448IBW4	broad	I	A0A448IBW4	Mycolicibacterium chitae (Mycobacterium chitae)	Actinomycetota	AYACSFR	796
+REF020_FI_Maliponia_aquimaris_A0A238KQS5	broad	I	A0A238KQS5	Maliponia aquimaris	Pseudomonadota	AYRCSFR	805
+REF021_FI_Pseudonocardia_autotrophica_Amycola_A0A1Y2N3L2	broad	I	A0A1Y2N3L2	Pseudonocardia autotrophica (Amycolata autotrophica) (Nocardia autotrophica)	Actinomycetota	AYRCSFR	794
+REF022_FI_Paraburkholderia_dioscoreae_A0A5Q4ZDG8	broad	I	A0A5Q4ZDG8	Paraburkholderia dioscoreae	Pseudomonadota	AYRCSFR	803
+REF023_FI_Rhodococcus_gordoniae_A0A379LVU4	broad	I	A0A379LVU4	Rhodococcus gordoniae	Actinomycetota	AYACSFR	797
+REF024_FI_Pararobbsia_alpina_A0A6S7D3Z5	broad	I	A0A6S7D3Z5	Pararobbsia alpina	Pseudomonadota	AYRCSFR	803
+REF025_FI_Phaeobacter_gallaeciensis_A0A1B0ZWG3	broad	I	A0A1B0ZWG3	Phaeobacter gallaeciensis	Pseudomonadota	AYRCSFR	804
+REF026_FI_Polymorphum_gilvum_strain_LMG_25793_F2IW51	broad	I	F2IW51	Polymorphum gilvum (strain LMG 25793 / CGMCC 1.9160 / SL003B-26A1)	Pseudomonadota	AYRCSFR	806
+REF027_FI_Pseudorhizobium_banfieldiae_L0NNE2	broad	I	L0NNE2	Pseudorhizobium banfieldiae	Pseudomonadota	AYRCSFR	806
+REF028_FI_Pseudoruegeria_aquimaris_A0A1Y5RQJ2	broad	I	A0A1Y5RQJ2	Pseudoruegeria aquimaris	Pseudomonadota	AYRCSFR	805
+REF029_FI_Roseibium_aggregatum_A0A0M6Y0E4	broad	I	A0A0M6Y0E4	Roseibium aggregatum	Pseudomonadota	AYRCSFR	806
+REF030_FI_Roseovarius_gaetbuli_A0A1X6ZH08	broad	I	A0A1X6ZH08	Roseovarius gaetbuli	Pseudomonadota	AYRCSFR	805
+REF031_FI_Ruegeria_arenilitoris_A0A238KMA5	broad	I	A0A238KMA5	Ruegeria arenilitoris	Pseudomonadota	AYRCSFR	805
+REF032_FI_Tepidimonas_aquatica_A0A554WCA0	broad	I	A0A554WCA0	Tepidimonas aquatica	Pseudomonadota	AYRCSFR	801
+REF033_FII_Acidiphilium_multivorum_strain_DSM__F0J165	broad	II	F0J165	Acidiphilium multivorum (strain DSM 11245 / JCM 8867 / NBRC 100883 / AIU 301)	Pseudomonadota	AYRGAGR	801
+REF034_FII_Actinoallomurus_iriomotensis_A0A9W6W744	broad	II	A0A9W6W744	Actinoallomurus iriomotensis	Actinomycetota	AYRGAGR	751
+REF035_FII_Ardenticatena_maritima_A0A0M8K8I5	broad	II	A0A0M8K8I5	Ardenticatena maritima	Chloroflexota	AYRGAGR	789
+REF036_FII_Calidithermus_roseus_A0A399EKG8	broad	II	A0A399EKG8	Calidithermus roseus	Deinococcota	AYRGAGR	764
+REF037_FII_Fibrella_aestuarina_BUZ_2_I0KFJ2	broad	II	I0KFJ2	Fibrella aestuarina BUZ 2	Bacteroidota	AYRGAGR	796
+REF038_FII_Kyrpidia_spormannii_A0A2K8N8V7	broad	II	A0A2K8N8V7	Kyrpidia spormannii	Bacillota	AYRGAGR	780
+REF039_FII_Luteitalea_pratensis_A0A143PSW7	broad	II	A0A143PSW7	Luteitalea pratensis	Acidobacteriota	AYRGAGR	787
+REF040_FII_Nitrolancea_hollandica_Lb_I4ED45	broad	II	I4ED45	Nitrolancea hollandica Lb	Thermomicrobiota	AYRGAGR	784
+REF041_FII_Actibacterium_lipolyticum_A0A238JRA4	broad	II	A0A238JRA4	Actibacterium lipolyticum	Pseudomonadota	AYRGAGR	765
+REF042_FII_Actinomadura_macrotermitis_A0A7K0C220	broad	II	A0A7K0C220	Actinomadura macrotermitis	Actinomycetota	AYRGAGR	798
+REF043_FII_Deinococcus_aluminii_A0ABP9XBM4	broad	II	A0ABP9XBM4	Deinococcus aluminii	Deinococcota	AYRGAGR	796
+REF044_FII_Sulfoacidibacillus_ferrooxidans_A0A9X1V6V7	broad	II	A0A9X1V6V7	Sulfoacidibacillus ferrooxidans	Bacillota	AYRGAGR	784
+REF045_FII_Albidovulum_aquaemixtae_A0A2R8B4Q9	broad	II	A0A2R8B4Q9	Albidovulum aquaemixtae	Pseudomonadota	AYRGAGR	788
+REF046_FII_Amycolatopsis_bartoniae_A0A8H9IQQ2	broad	II	A0A8H9IQQ2	Amycolatopsis bartoniae	Actinomycetota	AYRGAGR	752
+REF047_FII_Meiothermus_granaticius_NBRC_107808_A0A399F9R8	broad	II	A0A399F9R8	Meiothermus granaticius NBRC 107808	Deinococcota	AYRGAGR	789
+REF048_FII_Ascidiaceihabitans_donghaensis_A0A2R8BD61	broad	II	A0A2R8BD61	Ascidiaceihabitans donghaensis	Pseudomonadota	AYRGAGR	788
+REF049_FII_Gandjariella_thermophila_A0A4D4J4W8	broad	II	A0A4D4J4W8	Gandjariella thermophila	Actinomycetota	AYRGAGR	752
+REF050_FII_Blastochloris_viridis_Rhodopseudomo_A0A0H5BCZ6	broad	II	A0A0H5BCZ6	Blastochloris viridis (Rhodopseudomonas viridis)	Pseudomonadota	AYRGAGR	788
+REF051_FII_Modestobacter_italicus_strain_DSM_4_I4F486	broad	II	I4F486	Modestobacter italicus (strain DSM 44449 / CECT 9708 / BC 501)	Actinomycetota	AYRGAGR	763
+REF052_FII_Bradyrhizobium_ivorense_A0A508SVN1	broad	II	A0A508SVN1	Bradyrhizobium ivorense	Pseudomonadota	AYRGAGR	779
+REF053_FII_Nocardioides_aquaticus_A0ABX8EDS7	broad	II	A0ABX8EDS7	Nocardioides aquaticus	Actinomycetota	AYRGAGR	828
+REF054_FII_Cereibacter_sphaeroides_strain_ATCC_Q3J2E6	broad	II	Q3J2E6	Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.) (Rhodobacter sphaeroides)	Pseudomonadota	AYRGAGR	790
+REF055_FII_Pseudonocardia_asaccharolytica_DSM__A0A511CWW9	broad	II	A0A511CWW9	Pseudonocardia asaccharolytica DSM 44247 = NBRC 16224	Actinomycetota	AYRGAGR	757
+REF056_FII_Comamonas_aquatilis_A0ACE2T5A2	broad	II	A0ACE2T5A2	Comamonas aquatilis	Pseudomonadota	AYRGAGR	795
+REF057_FII_Rhodococcus_coprophilus_A0A2X4U3L5	broad	II	A0A2X4U3L5	Rhodococcus coprophilus	Actinomycetota	AYRGAGR	808
+REF058_FII_Cupriavidus_laharis_A0ABM8XSX1	broad	II	A0ABM8XSX1	Cupriavidus laharis	Pseudomonadota	AYRGAGR	791
+REF059_FII_Streptomonospora_litoralis_A0A4P6PZM8	broad	II	A0A4P6PZM8	Streptomonospora litoralis	Actinomycetota	AYRGAGR	800
+REF060_FII_Donghicola_eburneus_A0A1M4N221	broad	II	A0A1M4N221	Donghicola eburneus	Pseudomonadota	AYRGAGR	788
+REF061_FII_Streptomyces_smaragdinus_A0A7K0CAR3	broad	II	A0A7K0CAR3	Streptomyces smaragdinus	Actinomycetota	AYRGAGR	791
+REF062_FII_Falsiruegeria_litorea_R37_A0A1Y5S8H3	broad	II	A0A1Y5S8H3	Falsiruegeria litorea R37	Pseudomonadota	AYRGAGR	787
+REF063_OUT_Bos_taurus_Bovine__P80457	outgroup	outgroup	P80457	Bos taurus (Bovine)	Chordata	NA	1332
+REF064_OUT_Escherichia_coli_strain_K12__Q46799	outgroup	outgroup	Q46799	Escherichia coli (strain K12)	Pseudomonadota	NA	752
+REF065_OUT_Megalodesulfovibrio_gigas_Desulfovi_Q46509	outgroup	outgroup	Q46509	Megalodesulfovibrio gigas (Desulfovibrio gigas)	Thermodesulfobacteriota	NA	907
+REF066_OUT_Rhodobacter_capsulatus_Rhodopseudom_O54051	outgroup	outgroup	O54051	Rhodobacter capsulatus (Rhodopseudomonas capsulata)	Pseudomonadota	NA	777

@@ -1,0 +1,199 @@
+sample_name;Accession;Latitude;Longitude;Source2;Category;Category2;absLat;Source;site;region;collection_date;atm_river
+GUS1;GUS1;-79.813953;-83.324287;Antarctic Soil;Antarctic Soil;Terrestrial;79.813953;soil;Union Glacier;Union Glacier;30-11-21;no
+GUS2;GUS2;-79.813953;-83.324287;Antarctic Soil;Antarctic Soil;Terrestrial;79.813953;soil;Union Glacier;Union Glacier;30-11-21;no
+GUS3;GUS3;-79.813953;-83.324287;Antarctic Soil;Antarctic Soil;Terrestrial;79.813953;soil;Union Glacier;Union Glacier;30-11-21;no
+GUS4;GUS4;-79.813953;-83.324287;Antarctic Soil;Antarctic Soil;Terrestrial;79.813953;soil;Union Glacier;Union Glacier;30-11-21;no
+GUS5;GUS5;-79.813953;-83.324287;Antarctic Soil;Antarctic Soil;Terrestrial;79.813953;soil;Union Glacier;Union Glacier;30-11-21;no
+GUS6;GUS6;-79.813953;-83.324287;Antarctic Soil;Antarctic Soil;Terrestrial;79.813953;soil;Union Glacier;Union Glacier;30-11-21;no
+PAA1;PAA1;-53.660833;-70.964222;Patagonian Air;Air;Air;53.660833;air;Punta Arenas;PA_POR;07-12-21;no
+PAA2;PAA2;-53.660833;-70.964222;Patagonian Air;Air;Air;53.660833;air;Punta Arenas;PA_POR;07-12-21;no
+PAA3;PAA3;-53.660833;-70.964222;Patagonian Air;Air;Air;53.660833;air;Punta Arenas;PA_POR;08-12-21;no
+PAA4;PAA4;-53.660833;-70.964222;Patagonian Air;Air;Air;53.660833;air;Punta Arenas;PA_POR;08-12-21;no
+PAA5;PAA5;-53.660833;-70.964222;Control;Control;Control;53.660833;coriolis_control;Punta Arenas;PA_POR;08-12-21;no
+PAA6;PAA6;-53.660833;-70.964222;Control;Control;Control;53.660833;deposition_control;Punta Arenas;PA_POR;08-12-21;no
+PAS1;PAS1;-53.660833;-70.964222;Patagonian Soil;Patagonian Soil;Terrestrial;53.660833;soil;Punta Arenas;PA_POR;07-12-21;no
+PAS3;PAS3;-53.660833;-70.964222;Patagonian Soil;Patagonian Soil;Terrestrial;53.660833;soil;Punta Arenas;PA_POR;07-12-21;no
+PAS4;PAS4;-53.660833;-70.964222;Patagonian Soil;Patagonian Soil;Terrestrial;53.660833;soil;Punta Arenas;PA_POR;07-12-21;no
+PatCB1;PatCB1;-53.756667;-69.236667;Control;Control;Control;53.756667;buffer_control;Patagonia;PN_SG;07-12-21;no
+PNA1;PNA1;-52.002222;-72.376667;Patagonian Air;Air;Air;52.002222;air;Puerto Natales;PN_SG;25-12-21;no
+PNA2;PNA2;-52.002222;-72.376667;Patagonian Air;Air;Air;52.002222;air;Puerto Natales;PN_SG;12-12-21;no
+PNA3;PNA3;-52.002222;-72.376667;Patagonian Air;Air;Air;52.002222;air;Puerto Natales;PN_SG;12-12-21;no
+PNA4;PNA4;-52.002222;-72.376667;Patagonian Air;Air;Air;52.002222;air;Puerto Natales;PN_SG;12-12-21;no
+PNA5;PNA5;-52.002222;-72.376667;Control;Control;Control;52.002222;coriolis_control;Puerto Natales;PN_SG;12-12-21;no
+PNA6;PNA6;-52.002222;-72.376667;Control;Control;Control;52.002222;deposition_control;Puerto Natales;PN_SG;12-12-21;no
+PNS1;PNS1;-52.002222;-72.376667;Patagonian Soil;Patagonian Soil;Terrestrial;52.002222;soil;Puerto Natales;PN_SG;10-12-21;no
+PNS2;PNS2;-52.002222;-72.376667;Patagonian Soil;Patagonian Soil;Terrestrial;52.002222;soil;Puerto Natales;PN_SG;10-12-21;no
+PNS3;PNS3;-52.002222;-72.376667;Patagonian Soil;Patagonian Soil;Terrestrial;52.002222;soil;Puerto Natales;PN_SG;10-12-21;no
+PNS4;PNS4;-52.002222;-72.376667;Patagonian Soil;Patagonian Soil;Terrestrial;52.002222;soil;Puerto Natales;PN_SG;10-12-21;no
+PVA1;PVA1;-53.756667;-69.236667;Patagonian Air;Air;Air;53.756667;air;Porvenir;PA_POR;19-12-21;no
+PVA2;PVA2;-53.756667;-69.236667;Patagonian Air;Air;Air;53.756667;air;Porvenir;PA_POR;19-12-21;no
+PVA3;PVA3;-53.756667;-69.236667;Patagonian Air;Air;Air;53.756667;air;Porvenir;PA_POR;20-12-21;no
+PVA4;PVA4;-53.756667;-69.236667;Patagonian Air;Air;Air;53.756667;air;Porvenir;PA_POR;20-12-21;no
+PVA5;PVA5;-53.756667;-69.236667;Control;Control;Control;53.756667;coriolis_control;Porvenir;PA_POR;20-12-21;no
+PVA6;PVA6;-53.756667;-69.236667;Control;Control;Control;53.756667;deposition_control;Porvenir;PA_POR;20-12-21;no
+PVS1;PVS1;-53.756667;-69.236667;Patagonian Soil;Patagonian Soil;Terrestrial;53.756667;soil;Porvenir;PA_POR;19-12-21;no
+PVS2;PVS2;-53.756667;-69.236667;Patagonian Soil;Patagonian Soil;Terrestrial;53.756667;soil;Porvenir;PA_POR;19-12-21;no
+PVS3;PVS3;-53.756667;-69.236667;Patagonian Soil;Patagonian Soil;Terrestrial;53.756667;soil;Porvenir;PA_POR;19-12-21;no
+PVS4;PVS4;-53.756667;-69.236667;Patagonian Soil;Patagonian Soil;Terrestrial;53.756667;soil;Porvenir;PA_POR;19-12-21;no
+PWA1;PWA1;-54.928639;-67.386111;Patagonian Air;Air;Air;54.928639;air;Puerto Williams;Puerto Williams;24-12-21;no
+PWA2;PWA2;-54.928639;-67.386111;Patagonian Air;Air;Air;54.928639;air;Puerto Williams;Puerto Williams;24-12-21;no
+PWA3;PWA3;-54.928639;-67.386111;Patagonian Air;Air;Air;54.928639;air;Puerto Williams;Puerto Williams;25-12-21;no
+PWA4;PWA4;-54.928639;-67.386111;Patagonian Air;Air;Air;54.928639;air;Puerto Williams;Puerto Williams;25-12-21;no
+PWA5;PWA5;-54.928639;-67.386111;Control;Control;Control;54.928639;coriolis_control;Puerto Williams;Puerto Williams;25-12-21;no
+PWA6;PWA6;-54.928639;-67.386111;Control;Control;Control;54.928639;deposition_control;Puerto Williams;Puerto Williams;25-12-21;no
+PWS1;PWS1;-54.928639;-67.386111;Patagonian Soil;Patagonian Soil;Terrestrial;54.928639;soil;Puerto Williams;Puerto Williams;24-12-21;no
+PWS2;PWS2;-54.928639;-67.386111;Patagonian Soil;Patagonian Soil;Terrestrial;54.928639;soil;Puerto Williams;Puerto Williams;24-12-21;no
+PWS3;PWS3;-54.928639;-67.386111;Patagonian Soil;Patagonian Soil;Terrestrial;54.928639;soil;Puerto Williams;Puerto Williams;24-12-21;no
+PWS4;PWS4;-54.928639;-67.386111;Patagonian Soil;Patagonian Soil;Terrestrial;54.928639;soil;Puerto Williams;Puerto Williams;24-12-21;no
+RA1;RA1;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;22-01-22;no
+RA10;RA10;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;02-02-22;no
+RA11;RA11;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;03-02-22;no
+RA12;RA12;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;04-02-22;no
+RA13;RA13;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;05-02-22;yes
+RA14;RA14;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;06-02-22;yes
+RA15;RA15;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;06-02-22;yes
+RA16;RA16;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;07-02-22;yes
+RA17;RA17;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;08-02-22;yes
+RA18;RA18;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;09-02-22;yes
+RA19;RA19;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;10-02-22;yes
+RA2;RA2;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;23-01-22;no
+RA20;RA20;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;11-02-22;yes
+RA21;RA21;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;12-02-22;no
+RA22;RA22;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;13-02-22;no
+RA23;RA23;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;14-02-22;no
+RA24;RA24;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;14-02-22;no
+RA25;RA25;-62.37831;-59.69842;Control;Control;Control;62.37831;coriolis_control;Risopatron;Risopatron;22-01-22;no
+RA26;RA26;-62.37831;-59.69842;Control;Control;Control;62.37831;deposition_control;Risopatron;Risopatron;27-01-22;no
+RA27;RA27;-62.37831;-59.69842;Control;Control;Control;62.37831;buffer_control;Risopatron;Risopatron;03-02-22;no
+RA28;RA28;-62.37831;-59.69842;Control;Control;Control;62.37831;deposition_control;Risopatron;Risopatron;09-02-22;yes
+RA29;RA29;-62.37831;-59.69842;Control;Control;Control;62.37831;buffer_control;Risopatron;Risopatron;09-02-22;yes
+RA3;RA3;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;24-01-22;no
+RA30;RA30;-62.37831;-59.69842;Control;Control;Control;62.37831;deposition_control;Risopatron;Risopatron;12-02-22;no
+RA31;RA31;-62.37831;-59.69842;Control;Control;Control;62.37831;buffer_control;Risopatron;Risopatron;14-02-22;no
+RA32;RA32;-62.37831;-59.69842;Control;Control;Control;62.37831;deposition_control;Risopatron;Risopatron;14-02-22;no
+RA4;RA4;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;25-01-22;no
+RA5;RA5;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;26-01-22;no
+RA6;RA6;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;27-01-22;no
+RA7;RA7;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;28-01-22;no
+RA8;RA8;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;29-01-22;no
+RA9;RA9;-62.37831;-59.69842;Antarctic Air;Air;Air;62.37831;air;Risopatron;Risopatron;01-02-22;no
+RS1;RS1;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;06-02-22;yes
+RS10;RS10;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;06-02-22;yes
+RS11;RS11;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;20-01-22;no
+RS12;RS12;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;20-01-22;no
+RS13;RS13;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;20-01-22;no
+RS14;RS14;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;20-01-22;no
+RS15;RS15;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;20-01-22;no
+RS16;RS16;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;20-01-22;no
+RS17;RS17;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;20-01-22;no
+RS18;RS18;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;20-01-22;no
+RS19;RS19;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;20-01-22;no
+RS2;RS2;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;06-02-22;yes
+RS20;RS20;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;20-01-22;no
+RS21;RS21;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;25-01-22;no
+RS22;RS22;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;25-01-22;no
+RS23;RS23;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;25-01-22;no
+RS24;RS24;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;25-01-22;no
+RS25;RS25;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;25-01-22;no
+RS26;RS26;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;25-01-22;no
+RS27;RS27;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;25-01-22;no
+RS28;RS28;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;25-01-22;no
+RS29;RS29;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;25-01-22;no
+RS3;RS3;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;06-02-22;yes
+RS30;RS30;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;25-01-22;no
+RS31;RS31;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;27-01-22;no
+RS32;RS32;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;27-01-22;no
+RS33;RS33;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;27-01-22;no
+RS34;RS34;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;27-01-22;no
+RS35;RS35;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;27-01-22;no
+RS36;RS36;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;27-01-22;no
+RS37;RS37;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;27-01-22;no
+RS38;RS38;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;27-01-22;no
+RS39;RS39;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;27-01-22;no
+RS4;RS4;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;06-02-22;yes
+RS40;RS40;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;27-01-22;no
+RS41;RS41;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;29-01-22;no
+RS42;RS42;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;29-01-22;no
+RS43;RS43;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;29-01-22;no
+RS44;RS44;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;29-01-22;no
+RS45;RS45;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;29-01-22;no
+RS46;RS46;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;29-01-22;no
+RS47;RS47;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;29-01-22;no
+RS48;RS48;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;29-01-22;no
+RS49;RS49;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;29-01-22;no
+RS5;RS5;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;06-02-22;yes
+RS50;RS50;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;29-01-22;no
+RS51;RS51;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;09-02-22;yes
+RS52;RS52;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;09-02-22;yes
+RS53;RS53;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;09-02-22;yes
+RS54;RS54;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;09-02-22;yes
+RS55;RS55;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;rhizosphere;Risopatron;Risopatron;09-02-22;yes
+RS56;RS56;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;09-02-22;yes
+RS57;RS57;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;09-02-22;yes
+RS58;RS58;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;09-02-22;yes
+RS59;RS59;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;09-02-22;yes
+RS6;RS6;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;06-02-22;yes
+RS60;RS60;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;09-02-22;yes
+RS61;RS61;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;15-02-22;no
+RS62;RS62;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;15-02-22;no
+RS63;RS63;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;15-02-22;no
+RS7;RS7;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;06-02-22;yes
+RS8;RS8;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;06-02-22;yes
+RS9;RS9;-62.37831;-59.69842;Antarctic Soil;Antarctic Soil;Terrestrial;62.37831;soil;Risopatron;Risopatron;06-02-22;yes
+RSW1;RSW1;-62.37831;-59.69842;Control;Control;Control;62.37831;sea_water_control;Risopatron;Risopatron;13-02-22;no
+RSW2;RSW2;-62.37831;-59.69842;Control;Control;Control;62.37831;sea_water_control;Risopatron;Risopatron;13-02-22;no
+RSW3;RSW3;-62.37831;-59.69842;Control;Control;Control;62.37831;sea_water_control;Risopatron;Risopatron;16-02-22;no
+RSW4;RSW4;-62.37831;-59.69842;Control;Control;Control;62.37831;sea_water_control;Risopatron;Risopatron;16-02-22;no
+SGA1;SGA1;-52.121194;-69.775778;Patagonian Air;Air;Air;52.121194;air;San Gregorio;PN_SG;14-12-21;no
+SGA2;SGA2;-52.121194;-69.775778;Patagonian Air;Air;Air;52.121194;air;San Gregorio;PN_SG;14-12-21;no
+SGA3;SGA3;-52.121194;-69.775778;Patagonian Air;Air;Air;52.121194;air;San Gregorio;PN_SG;15-12-21;no
+SGA4;SGA4;-52.121194;-69.775778;Patagonian Air;Air;Air;52.121194;air;San Gregorio;PN_SG;15-12-21;no
+SGA5;SGA5;-52.121194;-69.775778;Control;Control;Control;52.121194;coriolis_control;San Gregorio;PN_SG;15-12-21;no
+SGA6;SGA6;-52.121194;-69.775778;Control;Control;Control;52.121194;deposition_control;San Gregorio;PN_SG;15-12-21;no
+SGS1;SGS1;-52.121194;-69.775778;Patagonian Soil;Patagonian Soil;Terrestrial;52.121194;soil;San Gregorio;PN_SG;14-12-21;no
+SGS2;SGS2;-52.121194;-69.775778;Patagonian Soil;Patagonian Soil;Terrestrial;52.121194;soil;San Gregorio;PN_SG;14-12-21;no
+SGS3;SGS3;-52.121194;-69.775778;Patagonian Soil;Patagonian Soil;Terrestrial;52.121194;soil;San Gregorio;PN_SG;14-12-21;no
+SGS4;SGS4;-52.121194;-69.775778;Patagonian Soil;Patagonian Soil;Terrestrial;52.121194;soil;San Gregorio;PN_SG;14-12-21;no
+YA1;YA1;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;08-02-22;yes
+YA10;YA10;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;15-02-22;no
+YA11;YA11;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;15-02-22;no
+YA12;YA12;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;16-02-22;no
+YA13;YA13;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;16-02-22;no
+YA14;YA14;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;18-02-22;no
+YA15;YA15;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;18-02-22;no
+YA16;YA16;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;19-02-22;no
+YA17;YA17;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;20-02-22;no
+YA18;YA18;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;21-02-22;no
+YA19;YA19;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;21-02-22;no
+YA2;YA2;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;09-02-22;yes
+YA20;YA20;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;22-02-22;no
+YA21;YA21;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;22-02-22;no
+YA22;YA22;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;23-02-22;no
+YA23;YA23;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;24-02-22;no
+YA24;YA24;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;24-02-22;no
+YA25;YA25;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;26-02-22;no
+YA26;YA26;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;26-02-22;no
+YA27;YA27;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;28-02-22;no
+YA28;YA28;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;01-03-22;no
+YA29;YA29;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;01-03-22;no
+YA3;YA3;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;09-02-22;yes
+YA30;YA30;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;26-02-22;no
+YA31;YA31;-64.876861;-63.581028;Control;Control;Control;64.876861;buffer_control;Yelcho;Yelcho;22-02-22;no
+YA32;YA32;-64.876861;-63.581028;Control;Control;Control;64.876861;coriolis_control;Yelcho;Yelcho;13-02-22;no
+YA33;YA33;-64.876861;-63.581028;Control;Control;Control;64.876861;coriolis_control;Yelcho;Yelcho;20-02-22;no
+YA34;YA34;-64.876861;-63.581028;Control;Control;Control;64.876861;coriolis_control;Yelcho;Yelcho;26-02-22;no
+YA35;YA35;-64.876861;-63.581028;Control;Control;Control;64.876861;deposition_control;Yelcho;Yelcho;13-02-22;no
+YA36;YA36;-64.876861;-63.581028;Control;Control;Control;64.876861;deposition_control;Yelcho;Yelcho;20-02-22;no
+YA37;YA37;-64.876861;-63.581028;Control;Control;Control;64.876861;deposition_control;Yelcho;Yelcho;26-02-22;no
+YA4;YA4;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;10-02-22;yes
+YA5;YA5;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;12-02-22;no
+YA6;YA6;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;12-02-22;no
+YA7;YA7;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;13-02-22;no
+YA8;YA8;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;13-02-22;no
+YA9;YA9;-64.876861;-63.581028;Antarctic Air;Air;Air;64.876861;air;Yelcho;Yelcho;14-02-22;no
+YS1;YS1;-64.876861;-63.581028;Antarctic Soil;Antarctic Soil;Terrestrial;64.876861;soil;Yelcho;Yelcho;04-03-22;no
+YS2;YS2;-64.876861;-63.581028;Antarctic Soil;Antarctic Soil;Terrestrial;64.876861;soil;Yelcho;Yelcho;04-03-22;no
+YS3;YS3;-64.876861;-63.581028;Antarctic Soil;Antarctic Soil;Terrestrial;64.876861;soil;Yelcho;Yelcho;04-03-22;no
+YS4;YS4;-64.876861;-63.581028;Antarctic Soil;Antarctic Soil;Terrestrial;64.876861;soil;Yelcho;Yelcho;10-02-22;yes
+YS5;YS5;-64.876861;-63.581028;Antarctic Soil;Antarctic Soil;Terrestrial;64.876861;soil;Yelcho;Yelcho;14-02-22;no
+YS6;YS6;-64.876861;-63.581028;Antarctic Soil;Antarctic Soil;Terrestrial;64.876861;soil;Yelcho;Yelcho;16-02-22;no

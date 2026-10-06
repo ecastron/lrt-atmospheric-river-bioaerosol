@@ -1,0 +1,734 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: tree_input.aln
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 213375
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 156 sequences with 1714 amino-acid sites
+Number of constant sites: 465 (= 27.1295% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 465 (= 27.1295% of all sites)
+Number of parsimony informative sites: 1030
+Number of distinct site patterns: 1393
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 1.5922
+
+ Category  Relative_rate  Proportion
+  1         0.2392         0.2500
+  2         0.6032         0.2500
+  3         1.0554         0.2500
+  4         2.1022         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -92823.2764 (s.e. 2376.6213)
+Unconstrained log-likelihood (without tree): -11867.0412
+Number of free parameters (#branches + #model parameters): 306
+Akaike information criterion (AIC) score: 186258.5528
+Corrected Akaike information criterion (AICc) score: 186392.0880
+Bayesian information criterion (BIC) score: 187925.2078
+
+Total tree length (sum of branch lengths): 66.4023
+Sum of internal branch lengths: 27.0979 (40.8087% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0006) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'REF000_FI_Afipia_carboxidovorans_strain_ATCC__P19919' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--REF000_FI_Afipia_carboxidovorans_strain_ATCC__P19919
+|
+|           +--REF001_FI_Hydrogenophaga_pseudoflava_Pseudomo_P19913
+|        +--| (98)
+|        |  +--REF032_FI_Tepidimonas_aquatica_A0A554WCA0
+|     +--| (100)
+|     |  |           +--REF007_FI_Paraburkholderia_xenovorans_strain__Q13IY1
+|     |  |        +--| (100)
+|     |  |        |  |  +--REF008_FI_Paraburkholderia_xenovorans_strain__Q13YL7
+|     |  |        |  +--| (100)
+|     |  |        |     +--REF022_FI_Paraburkholderia_dioscoreae_A0A5Q4ZDG8
+|     |  |     +--| (100)
+|     |  |     |  +--REF024_FI_Pararobbsia_alpina_A0A6S7D3Z5
+|     |  |  +--| (99)
+|     |  |  |  |  +--REF009_FI_Cupriavidus_numazuensis_A0ABM8THX1
+|     |  |  |  +--| (100)
+|     |  |  |     +--REF010_FI_Cupriavidus_laharis_A0ABM8WM43
+|     |  +--| (95)
+|     |     +--CAND_RA23_246269_1
+|  +--| (100)
+|  |  |                    +--REF002_FI_Mycolicibacterium_smegmatis_strain__A0QQG4
+|  |  |                 +--| (97)
+|  |  |                 |  +--REF019_FI_Mycolicibacterium_chitae_Mycobacter_A0A448IBW4
+|  |  |              +--| (97)
+|  |  |              |  +--REF016_FI_Mycobacterium_attenuatum_A0A498PSI1
+|  |  |           +--| (100)
+|  |  |           |  +--REF023_FI_Rhodococcus_gordoniae_A0A379LVU4
+|  |  |        +--| (100)
+|  |  |        |  +--REF013_FI_Capillimicrobium_parvum_A0A9E6Y1X1
+|  |  |     +--| (93)
+|  |  |     |  |                            +--REF033_FII_Acidiphilium_multivorum_strain_DSM__F0J165
+|  |  |     |  |                         +--| (96)
+|  |  |     |  |                         |  |     +--REF045_FII_Albidovulum_aquaemixtae_A0A2R8B4Q9
+|  |  |     |  |                         |  |  +--| (95)
+|  |  |     |  |                         |  |  |  |        +--REF048_FII_Ascidiaceihabitans_donghaensis_A0A2R8BD61
+|  |  |     |  |                         |  |  |  |     +--| (76)
+|  |  |     |  |                         |  |  |  |     |  |  +--CAND_RA18_607539_1
+|  |  |     |  |                         |  |  |  |     |  +--| (100)
+|  |  |     |  |                         |  |  |  |     |     +--CAND_RA18_945042_3
+|  |  |     |  |                         |  |  |  |  +--| (76)
+|  |  |     |  |                         |  |  |  |  |  +--REF062_FII_Falsiruegeria_litorea_R37_A0A1Y5S8H3
+|  |  |     |  |                         |  |  |  +--| (100)
+|  |  |     |  |                         |  |  |     +--REF060_FII_Donghicola_eburneus_A0A1M4N221
+|  |  |     |  |                         |  +--| (97)
+|  |  |     |  |                         |     |  +--REF054_FII_Cereibacter_sphaeroides_strain_ATCC_Q3J2E6
+|  |  |     |  |                         |     +--| (100)
+|  |  |     |  |                         |        |  +--CAND_RA18_203704_1
+|  |  |     |  |                         |        +--| (100)
+|  |  |     |  |                         |           |  +--CAND_RA18_590299_2
+|  |  |     |  |                         |           +--| (98)
+|  |  |     |  |                         |              +--CAND_RA23_390421_1
+|  |  |     |  |                      +--| (96)
+|  |  |     |  |                      |  |     +--REF050_FII_Blastochloris_viridis_Rhodopseudomo_A0A0H5BCZ6
+|  |  |     |  |                      |  |  +--| (100)
+|  |  |     |  |                      |  |  |  |     +--REF052_FII_Bradyrhizobium_ivorense_A0A508SVN1
+|  |  |     |  |                      |  |  |  |  +--| (100)
+|  |  |     |  |                      |  |  |  |  |  +--CAND_RA15_697464_1
+|  |  |     |  |                      |  |  |  +--| (99)
+|  |  |     |  |                      |  |  |     +--CAND_RA18_726358_1
+|  |  |     |  |                      |  +--| (87)
+|  |  |     |  |                      |     |  +--REF056_FII_Comamonas_aquatilis_A0ACE2T5A2
+|  |  |     |  |                      |     +--| (100)
+|  |  |     |  |                      |        +--REF058_FII_Cupriavidus_laharis_A0ABM8XSX1
+|  |  |     |  |                   +--| (94)
+|  |  |     |  |                   |  |              +--REF041_FII_Actibacterium_lipolyticum_A0A238JRA4
+|  |  |     |  |                   |  |           +--| (100)
+|  |  |     |  |                   |  |           |  |  +--CAND_RA17_531381_1
+|  |  |     |  |                   |  |           |  +--| (100)
+|  |  |     |  |                   |  |           |     |        +**CAND_RA17_512195_1
+|  |  |     |  |                   |  |           |     |     +--| (100)
+|  |  |     |  |                   |  |           |     |     |  +**CAND_RA22_651576_2
+|  |  |     |  |                   |  |           |     |  +--| (100)
+|  |  |     |  |                   |  |           |     |  |  +--CAND_RA18_915811_1
+|  |  |     |  |                   |  |           |     +--| (100)
+|  |  |     |  |                   |  |           |        |  +--CAND_RA18_951830_1
+|  |  |     |  |                   |  |           |        +--| (99)
+|  |  |     |  |                   |  |           |           +--CAND_RA18_737762_1
+|  |  |     |  |                   |  |        +--| (100)
+|  |  |     |  |                   |  |        |  +---CAND_RA22_212213_3
+|  |  |     |  |                   |  |     +--| (96)
+|  |  |     |  |                   |  |     |  |       +--CAND_RA18_494208_1
+|  |  |     |  |                   |  |     |  |    +--| (97)
+|  |  |     |  |                   |  |     |  |    |  +--CAND_RA18_572927_1
+|  |  |     |  |                   |  |     |  +----| (100)
+|  |  |     |  |                   |  |     |       +---CAND_RA22_680000_1
+|  |  |     |  |                   |  |  +--| (77)
+|  |  |     |  |                   |  |  |  +-----------CAND_RA18_950593_1
+|  |  |     |  |                   |  +--| (90)
+|  |  |     |  |                   |     +-------CAND_RA18_501938_1
+|  |  |     |  |                +--| (95)
+|  |  |     |  |                |  |  +--REF037_FII_Fibrella_aestuarina_BUZ_2_I0KFJ2
+|  |  |     |  |                |  +--| (100)
+|  |  |     |  |                |     |     +--CAND_RA18_864916_1
+|  |  |     |  |                |     |  +--| (95)
+|  |  |     |  |                |     |  |  +--CAND_RA22_487124_1
+|  |  |     |  |                |     +--| (99)
+|  |  |     |  |                |        +--CAND_RA18_683223_1
+|  |  |     |  |             +--| (54)
+|  |  |     |  |             |  |  +--REF043_FII_Deinococcus_aluminii_A0ABP9XBM4
+|  |  |     |  |             |  +--| (100)
+|  |  |     |  |             |     +--REF047_FII_Meiothermus_granaticius_NBRC_107808_A0A399F9R8
+|  |  |     |  |          +--| (98)
+|  |  |     |  |          |  +--REF035_FII_Ardenticatena_maritima_A0A0M8K8I5
+|  |  |     |  |       +--| (98)
+|  |  |     |  |       |  |     +--REF038_FII_Kyrpidia_spormannii_A0A2K8N8V7
+|  |  |     |  |       |  |  +--| (100)
+|  |  |     |  |       |  |  |  +--REF044_FII_Sulfoacidibacillus_ferrooxidans_A0A9X1V6V7
+|  |  |     |  |       |  +--| (100)
+|  |  |     |  |       |     +---REF040_FII_Nitrolancea_hollandica_Lb_I4ED45
+|  |  |     |  |    +--| (69)
+|  |  |     |  |    |  |           +--REF042_FII_Actinomadura_macrotermitis_A0A7K0C220
+|  |  |     |  |    |  |        +--| (99)
+|  |  |     |  |    |  |        |  +--REF059_FII_Streptomonospora_litoralis_A0A4P6PZM8
+|  |  |     |  |    |  |     +--| (100)
+|  |  |     |  |    |  |     |  +--REF061_FII_Streptomyces_smaragdinus_A0A7K0CAR3
+|  |  |     |  |    |  |  +--| (100)
+|  |  |     |  |    |  |  |  |  +--REF053_FII_Nocardioides_aquaticus_A0ABX8EDS7
+|  |  |     |  |    |  |  |  +--| (100)
+|  |  |     |  |    |  |  |     +--REF057_FII_Rhodococcus_coprophilus_A0A2X4U3L5
+|  |  |     |  |    |  +--| (100)
+|  |  |     |  |    |     +-------CAND_RA18_204030_1
+|  |  |     |  +----| (100)
+|  |  |     |       |                +--REF034_FII_Actinoallomurus_iriomotensis_A0A9W6W744
+|  |  |     |       |             +--| (97)
+|  |  |     |       |             |  |  +--REF046_FII_Amycolatopsis_bartoniae_A0A8H9IQQ2
+|  |  |     |       |             |  +--| (100)
+|  |  |     |       |             |     +--REF049_FII_Gandjariella_thermophila_A0A4D4J4W8
+|  |  |     |       |        +----| (100)
+|  |  |     |       |        |    |  +--REF051_FII_Modestobacter_italicus_strain_DSM_4_I4F486
+|  |  |     |       |        |    +--| (100)
+|  |  |     |       |        |       +--REF055_FII_Pseudonocardia_asaccharolytica_DSM__A0A511CWW9
+|  |  |     |       |     +--| (34)
+|  |  |     |       |     |  +------REF036_FII_Calidithermus_roseus_A0A399EKG8
+|  |  |     |       |  +--| (69)
+|  |  |     |       |  |  |                              +------REF063_OUT_Bos_taurus_Bovine__P80457
+|  |  |     |       |  |  |                       +------| (100)
+|  |  |     |       |  |  |                       |      +-------REF066_OUT_Rhodobacter_capsulatus_Rhodopseudom_O54051
+|  |  |     |       |  |  |                    +--| (85)
+|  |  |     |       |  |  |                    |  +------------REF065_OUT_Megalodesulfovibrio_gigas_Desulfovi_Q46509
+|  |  |     |       |  |  |                 +--| (89)
+|  |  |     |       |  |  |                 |  |  +-------CAND_RA15_671800_1
+|  |  |     |       |  |  |                 |  +--| (79)
+|  |  |     |       |  |  |                 |     |         +------CAND_RA16_269896_1
+|  |  |     |       |  |  |                 |     +---------| (100)
+|  |  |     |       |  |  |                 |               +--CAND_RA18_378299_1
+|  |  |     |       |  |  |              +--| (83)
+|  |  |     |       |  |  |              |  |        +--------REF064_OUT_Escherichia_coli_strain_K12__Q46799
+|  |  |     |       |  |  |              |  |     +--| (98)
+|  |  |     |       |  |  |              |  |     |  |      +---CAND_RA17_333333_1
+|  |  |     |       |  |  |              |  |     |  +------| (100)
+|  |  |     |       |  |  |              |  |     |         +---CAND_RA23_269893_1
+|  |  |     |       |  |  |              |  |  +--| (35)
+|  |  |     |       |  |  |              |  |  |  +----------CAND_RA18_120482_1
+|  |  |     |       |  |  |              |  +--| (35)
+|  |  |     |       |  |  |              |     |               +--CAND_RA18_402778_1
+|  |  |     |       |  |  |              |     |     +---------| (100)
+|  |  |     |       |  |  |              |     |     |         +---CAND_RA18_766541_1
+|  |  |     |       |  |  |              |     |  +--| (87)
+|  |  |     |       |  |  |              |     |  |  |   +------CAND_RA23_547980_1
+|  |  |     |       |  |  |              |     |  |  +---| (32)
+|  |  |     |       |  |  |              |     |  |      +--CAND_RA3_229665_1
+|  |  |     |       |  |  |              |     +--| (84)
+|  |  |     |       |  |  |              |        +---------CAND_RA22_066869_1
+|  |  |     |       |  |  |           +--| (88)
+|  |  |     |       |  |  |           |  |                 +--CAND_RA18_889749_1
+|  |  |     |       |  |  |           |  +-----------------| (100)
+|  |  |     |       |  |  |           |                    +--CAND_RA18_807074_1
+|  |  |     |       |  |  |        +--| (98)
+|  |  |     |       |  |  |        |  |           +-----------CAND_PWA3_523020_1
+|  |  |     |       |  |  |        |  |        +--| (88)
+|  |  |     |       |  |  |        |  |        |  |           +--CAND_RA14_046742_1
+|  |  |     |       |  |  |        |  |        |  |   +-------| (100)
+|  |  |     |       |  |  |        |  |        |  |   |       +--CAND_RA15_167045_1
+|  |  |     |       |  |  |        |  |        |  +---| (98)
+|  |  |     |       |  |  |        |  |        |      |  +--CAND_RA16_268005_1
+|  |  |     |       |  |  |        |  |        |      +--| (98)
+|  |  |     |       |  |  |        |  |        |         +--CAND_RA18_559322_2
+|  |  |     |       |  |  |        |  |     +--| (97)
+|  |  |     |       |  |  |        |  |     |  +---CAND_RA18_018977_2
+|  |  |     |       |  |  |        |  |  +--| (99)
+|  |  |     |       |  |  |        |  |  |  |   +--------CAND_RA16_109305_4
+|  |  |     |       |  |  |        |  |  |  +---| (100)
+|  |  |     |       |  |  |        |  |  |      +------CAND_RA16_722222_1
+|  |  |     |       |  |  |        |  +--| (90)
+|  |  |     |       |  |  |        |     |                                 +**CAND_RA16_169932_1
+|  |  |     |       |  |  |        |     |                              +--| (100)
+|  |  |     |       |  |  |        |     |                              |  +**CAND_RA17_685634_1
+|  |  |     |       |  |  |        |     |                           +--| (98)
+|  |  |     |       |  |  |        |     |                           |  +--CAND_RA18_584483_1
+|  |  |     |       |  |  |        |     |                        +--| (99)
+|  |  |     |       |  |  |        |     |                        |  +--CAND_RA18_850594_1
+|  |  |     |       |  |  |        |     |                     +--| (99)
+|  |  |     |       |  |  |        |     |                     |  |     +--CAND_RA18_259058_1
+|  |  |     |       |  |  |        |     |                     |  |  +--| (100)
+|  |  |     |       |  |  |        |     |                     |  |  |  +--CAND_RA22_593801_2
+|  |  |     |       |  |  |        |     |                     |  +--| (100)
+|  |  |     |       |  |  |        |     |                     |     +--CAND_RA18_741650_1
+|  |  |     |       |  |  |        |     |                +----| (100)
+|  |  |     |       |  |  |        |     |                |    +--CAND_RA17_645677_1
+|  |  |     |       |  |  |        |     |             +--| (97)
+|  |  |     |       |  |  |        |     |             |  |       +--CAND_RA17_573113_1
+|  |  |     |       |  |  |        |     |             |  +-------| (100)
+|  |  |     |       |  |  |        |     |             |          +**CAND_RA18_075058_1
+|  |  |     |       |  |  |        |     |          +--| (84)
+|  |  |     |       |  |  |        |     |          |  |               +**CAND_RA16_201238_2
+|  |  |     |       |  |  |        |     |          |  |            +--| (100)
+|  |  |     |       |  |  |        |     |          |  |            |  +**CAND_RA17_771811_3
+|  |  |     |       |  |  |        |     |          |  |     +------| (100)
+|  |  |     |       |  |  |        |     |          |  |     |      +--CAND_RA18_671792_4
+|  |  |     |       |  |  |        |     |          |  |  +--| (82)
+|  |  |     |       |  |  |        |     |          |  |  |  +----------CAND_RA18_971114_1
+|  |  |     |       |  |  |        |     |          |  +--| (86)
+|  |  |     |       |  |  |        |     |          |     |                     +**CAND_RA17_335381_3
+|  |  |     |       |  |  |        |     |          |     |                  +**| (82)
+|  |  |     |       |  |  |        |     |          |     |                  |  +--CAND_RA18_950769_1
+|  |  |     |       |  |  |        |     |          |     |               +--| (100)
+|  |  |     |       |  |  |        |     |          |     |               |  +**CAND_RA23_954894_2
+|  |  |     |       |  |  |        |     |          |     |            +--| (100)
+|  |  |     |       |  |  |        |     |          |     |            |  |  +--CAND_RA18_550752_1
+|  |  |     |       |  |  |        |     |          |     |            |  +--| (100)
+|  |  |     |       |  |  |        |     |          |     |            |     +--CAND_RA23_219691_1
+|  |  |     |       |  |  |        |     |          |     |         +--| (100)
+|  |  |     |       |  |  |        |     |          |     |         |  +--CAND_RA18_912429_1
+|  |  |     |       |  |  |        |     |          |     |      +--| (92)
+|  |  |     |       |  |  |        |     |          |     |      |  |          +--CAND_RA17_041114_1
+|  |  |     |       |  |  |        |     |          |     |      |  +----------| (100)
+|  |  |     |       |  |  |        |     |          |     |      |             +--CAND_RA18_143695_1
+|  |  |     |       |  |  |        |     |          |     +------| (100)
+|  |  |     |       |  |  |        |     |          |            +--CAND_RA22_816434_1
+|  |  |     |       |  |  |        |     |       +--| (98)
+|  |  |     |       |  |  |        |     |       |  +--------------CAND_RA22_630155_1
+|  |  |     |       |  |  |        |     +-------| (100)
+|  |  |     |       |  |  |        |             |  +--------------CAND_RA18_605263_1
+|  |  |     |       |  |  |        |             +--| (80)
+|  |  |     |       |  |  |        |                +---------CAND_RA23_031507_1
+|  |  |     |       |  |  |     +--| (83)
+|  |  |     |       |  |  |     |  |                       +--CAND_RA17_514474_1
+|  |  |     |       |  |  |     |  |                    +--| (99)
+|  |  |     |       |  |  |     |  |                    |  +**CAND_RA22_227545_1
+|  |  |     |       |  |  |     |  |                 +**| (91)
+|  |  |     |       |  |  |     |  |                 |  +--CAND_RA18_556638_1
+|  |  |     |       |  |  |     |  |              +--| (23)
+|  |  |     |       |  |  |     |  |              |  +--CAND_RA22_687697_2
+|  |  |     |       |  |  |     |  |           +--| (61)
+|  |  |     |       |  |  |     |  |           |  |  +--CAND_RA22_377396_1
+|  |  |     |       |  |  |     |  |           |  +--| (99)
+|  |  |     |       |  |  |     |  |           |     +--CAND_RA23_372483_1
+|  |  |     |       |  |  |     |  |        +--| (99)
+|  |  |     |       |  |  |     |  |        |  +--CAND_RA23_452532_1
+|  |  |     |       |  |  |     |  |  +-----| (100)
+|  |  |     |       |  |  |     |  |  |     +-----CAND_RA18_278027_1
+|  |  |     |       |  |  |     |  +--| (79)
+|  |  |     |       |  |  |     |     +------------CAND_RA22_333086_1
+|  |  |     |       |  |  |  +--| (82)
+|  |  |     |       |  |  |  |  +---------------CAND_RA22_948167_1
+|  |  |     |       |  |  +--| (82)
+|  |  |     |       |  |     +------CAND_RA22_934783_3
+|  |  |     |       +--| (86)
+|  |  |     |          +-----REF039_FII_Luteitalea_pratensis_A0A143PSW7
+|  |  |  +--| (89)
+|  |  |  |  |   +--REF021_FI_Pseudonocardia_autotrophica_Amycola_A0A1Y2N3L2
+|  |  |  |  +---| (100)
+|  |  |  |      +--CAND_RA22_547253_1
+|  |  +--| (100)
+|  |     |        +--REF003_FI_Thermomicrobium_roseum_strain_ATCC__B9L450
+|  |     |     +--| (99)
+|  |     |     |  +--CAND_RA18_802846_1
+|  |     |  +--| (98)
+|  |     |  |  |     +--REF004_FI_Thermogemmatispora_tikiterensis_A0A328VRJ9
+|  |     |  |  |  +--| (100)
+|  |     |  |  |  |  +--REF005_FI_Thermogemmatispora_aurantia_A0A5J4K876
+|  |     |  |  +--| (100)
+|  |     |  |     +--REF006_FI_Ktedonobacter_racemifer_DSM_44963_D6TQ73
+|  |     +--| (68)
+|  |        |  +--REF012_FI_Bacillus_methanolicus_strain_MGA3_A_I3E8H4
+|  |        +--| (100)
+|  |           |  +--REF014_FI_Deinococcus_caeni_A0ABP9UI58
+|  |           +--| (100)
+|  |              +--REF017_FI_Meiothermus_granaticius_NBRC_107808_A0A399F476
++--| (100)
+|  |                 +**REF011_FI_Actibacterium_lipolyticum_A0A238JPJ5
+|  |              +--| (71)
+|  |              |  +--CAND_RA16_346473_1
+|  |           +--| (71)
+|  |           |  +--CAND_RA18_596741_1
+|  |        +--| (69)
+|  |        |  |  +--REF025_FI_Phaeobacter_gallaeciensis_A0A1B0ZWG3
+|  |        |  +--| (79)
+|  |        |     +--REF030_FI_Roseovarius_gaetbuli_A0A1X6ZH08
+|  |     +--| (95)
+|  |     |  +--CAND_RA16_330126_2
+|  |  +--| (91)
+|  |  |  |        +--REF015_FI_Antarctobacter_heliothermus_A0A222E7I6
+|  |  |  |     +--| (100)
+|  |  |  |     |  +--REF020_FI_Maliponia_aquimaris_A0A238KQS5
+|  |  |  |  +--| (97)
+|  |  |  |  |  +--REF028_FI_Pseudoruegeria_aquimaris_A0A1Y5RQJ2
+|  |  |  +--| (100)
+|  |  |     +--REF031_FI_Ruegeria_arenilitoris_A0A238KMA5
+|  +--| (100)
+|     +--REF027_FI_Pseudorhizobium_banfieldiae_L0NNE2
+|
+|  +--REF018_FI_Bradyrhizobium_cosmicum_A0AAI8QEB8
++--| (100)
+   |  +--REF026_FI_Polymorphum_gilvum_strain_LMG_25793_F2IW51
+   +--| (100)
+      +--REF029_FI_Roseibium_aggregatum_A0A0M6Y0E4
+
+Tree in newick format:
+
+(REF000_FI_Afipia_carboxidovorans_strain_ATCC__P19919:0.1437522721,((((REF001_FI_Hydrogenophaga_pseudoflava_Pseudomo_P19913:0.1027539302,REF032_FI_Tepidimonas_aquatica_A0A554WCA0:0.0977476544)98:0.0916090156,((((REF007_FI_Paraburkholderia_xenovorans_strain__Q13IY1:0.0241989997,(REF008_FI_Paraburkholderia_xenovorans_strain__Q13YL7:0.0026752465,REF022_FI_Paraburkholderia_dioscoreae_A0A5Q4ZDG8:0.0013130144)100:0.0106495564)100:0.0190830585,REF024_FI_Pararobbsia_alpina_A0A6S7D3Z5:0.0507049876)100:0.0399795004,(REF009_FI_Cupriavidus_numazuensis_A0ABM8THX1:0.0092790829,REF010_FI_Cupriavidus_laharis_A0ABM8WM43:0.0107713847)100:0.0612164504)99:0.0996395506,CAND_RA23_246269_1:0.3052391440)95:0.0606353215)100:0.0949845218,(((((((REF002_FI_Mycolicibacterium_smegmatis_strain__A0QQG4:0.0437358694,REF019_FI_Mycolicibacterium_chitae_Mycobacter_A0A448IBW4:0.0342730648)97:0.0191546048,REF016_FI_Mycobacterium_attenuatum_A0A498PSI1:0.0676461826)97:0.0311626731,REF023_FI_Rhodococcus_gordoniae_A0A379LVU4:0.0873420902)100:0.1359984522,REF013_FI_Capillimicrobium_parvum_A0A9E6Y1X1:0.1468128867)100:0.1641892435,(((((((((REF033_FII_Acidiphilium_multivorum_strain_DSM__F0J165:0.2540228436,((REF045_FII_Albidovulum_aquaemixtae_A0A2R8B4Q9:0.1267084972,(((REF048_FII_Ascidiaceihabitans_donghaensis_A0A2R8BD61:0.0781006311,(CAND_RA18_607539_1:0.1081802622,CAND_RA18_945042_3:0.1431760612)100:0.0784957661)76:0.0344560121,REF062_FII_Falsiruegeria_litorea_R37_A0A1Y5S8H3:0.0884246999)76:0.0219251838,REF060_FII_Donghicola_eburneus_A0A1M4N221:0.0685124233)100:0.1016208936)95:0.0772114647,(REF054_FII_Cereibacter_sphaeroides_strain_ATCC_Q3J2E6:0.1520445449,(CAND_RA18_203704_1:0.0329104545,(CAND_RA18_590299_2:0.0401051955,CAND_RA23_390421_1:0.0206116133)98:0.0309376367)100:0.1739033749)100:0.1137944985)97:0.1651092279)96:0.0415137731,((REF050_FII_Blastochloris_viridis_Rhodopseudomo_A0A0H5BCZ6:0.2381144228,((REF052_FII_Bradyrhizobium_ivorense_A0A508SVN1:0.1706362790,CAND_RA15_697464_1:0.1156068921)100:0.0721002745,CAND_RA18_726358_1:0.2946970648)99:0.1056821762)100:0.1216701391,(REF056_FII_Comamonas_aquatilis_A0ACE2T5A2:0.2444782198,REF058_FII_Cupriavidus_laharis_A0ABM8XSX1:0.1668530186)100:0.1256285359)87:0.0546160090)96:0.0349959219,(((((REF041_FII_Actibacterium_lipolyticum_A0A238JRA4:0.2442819608,(CAND_RA17_531381_1:0.2308740505,(((CAND_RA17_512195_1:0.0000027979,CAND_RA22_651576_2:0.0000022097)100:0.0179876416,CAND_RA18_915811_1:0.2022498755)100:0.1211606429,(CAND_RA18_951830_1:0.1093707684,CAND_RA18_737762_1:0.0783144411)99:0.0738261480)100:0.1480025760)100:0.1492772346)100:0.1345601491,CAND_RA22_212213_3:0.3679282343)100:0.1705937585,((CAND_RA18_494208_1:0.0052168043,CAND_RA18_572927_1:0.0610278827)97:0.3101259043,CAND_RA22_680000_1:0.4015986477)100:0.4831613166)96:0.2642031633,CAND_RA18_950593_1:1.1040310384)77:0.0664495848,CAND_RA18_501938_1:0.7310707838)90:0.2397319130)94:0.1039232485,(REF037_FII_Fibrella_aestuarina_BUZ_2_I0KFJ2:0.2271711819,((CAND_RA18_864916_1:0.2270273498,CAND_RA22_487124_1:0.2502791680)95:0.0465547423,CAND_RA18_683223_1:0.1741195598)99:0.0733412240)100:0.1751961604)95:0.1137412034,(REF043_FII_Deinococcus_aluminii_A0ABP9XBM4:0.2490068554,REF047_FII_Meiothermus_granaticius_NBRC_107808_A0A399F9R8:0.2296762335)100:0.2033141998)54:0.0480987581,REF035_FII_Ardenticatena_maritima_A0A0M8K8I5:0.2421711084)98:0.1260766264,((REF038_FII_Kyrpidia_spormannii_A0A2K8N8V7:0.1479969407,REF044_FII_Sulfoacidibacillus_ferrooxidans_A0A9X1V6V7:0.2480958121)100:0.1667786823,REF040_FII_Nitrolancea_hollandica_Lb_I4ED45:0.3523549019)100:0.1134450723)98:0.1032648810,((((REF042_FII_Actinomadura_macrotermitis_A0A7K0C220:0.2077823596,REF059_FII_Streptomonospora_litoralis_A0A4P6PZM8:0.1686905372)99:0.0493152157,REF061_FII_Streptomyces_smaragdinus_A0A7K0CAR3:0.2676130566)100:0.0670437585,(REF053_FII_Nocardioides_aquaticus_A0ABX8EDS7:0.3203513420,REF057_FII_Rhodococcus_coprophilus_A0A2X4U3L5:0.1821870612)100:0.1037965759)100:0.1641622238,CAND_RA18_204030_1:0.7023194321)100:0.2353027495)69:0.0504497427,(((((REF034_FII_Actinoallomurus_iriomotensis_A0A9W6W744:0.2579726407,(REF046_FII_Amycolatopsis_bartoniae_A0A8H9IQQ2:0.1753983142,REF049_FII_Gandjariella_thermophila_A0A4D4J4W8:0.1659351902)100:0.1713411584)97:0.0770531345,(REF051_FII_Modestobacter_italicus_strain_DSM_4_I4F486:0.2929501859,REF055_FII_Pseudonocardia_asaccharolytica_DSM__A0A511CWW9:0.2604194305)100:0.1584971052)100:0.5119003016,REF036_FII_Calidithermus_roseus_A0A399EKG8:0.6249657676)34:0.0701166573,(((((((((REF063_OUT_Bos_taurus_Bovine__P80457:0.6547964621,REF066_OUT_Rhodobacter_capsulatus_Rhodopseudom_O54051:0.7271927303)100:0.6733469334,REF065_OUT_Megalodesulfovibrio_gigas_Desulfovi_Q46509:1.1528782810)85:0.1628670600,(CAND_RA15_671800_1:0.7683174045,(CAND_RA16_269896_1:0.6534789203,CAND_RA18_378299_1:0.2950842464)100:0.9321422701)79:0.1088219577)89:0.1884348664,(((REF064_OUT_Escherichia_coli_strain_K12__Q46799:0.8529731337,(CAND_RA17_333333_1:0.3743573183,CAND_RA23_269893_1:0.3998000419)100:0.6348249128)98:0.2696658158,CAND_RA18_120482_1:0.9864620298)35:0.0604732977,(((CAND_RA18_402778_1:0.0996559882,CAND_RA18_766541_1:0.3874088317)100:0.8922110189,(CAND_RA23_547980_1:0.6167803791,CAND_RA3_229665_1:0.0181717816)32:0.4362160003)87:0.2387671368,CAND_RA22_066869_1:0.9433246795)84:0.1488702191)35:0.0901851956)83:0.0628613790,(CAND_RA18_889749_1:0.0271981395,CAND_RA18_807074_1:0.0239078245)100:1.5960340280)88:0.1255140091,((((CAND_PWA3_523020_1:1.1387218554,((CAND_RA14_046742_1:0.0025064129,CAND_RA15_167045_1:0.0080188428)100:0.7262823185,(CAND_RA16_268005_1:0.1024085219,CAND_RA18_559322_2:0.2398542774)98:0.1314438168)98:0.4083728326)88:0.1233407059,CAND_RA18_018977_2:0.4149108475)97:0.2002725655,(CAND_RA16_109305_4:0.8405144734,CAND_RA16_722222_1:0.6750565517)100:0.3940550325)99:0.2964744111,(((((((((CAND_RA16_169932_1:0.0000010000,CAND_RA17_685634_1:0.0000010000)100:0.0217420342,CAND_RA18_584483_1:0.0293562135)98:0.0344183700,CAND_RA18_850594_1:0.1016251389)99:0.0105851950,((CAND_RA18_259058_1:0.0228065764,CAND_RA22_593801_2:0.0033714142)100:0.0342792732,CAND_RA18_741650_1:0.0402384317)100:0.0257223189)99:0.1223243700,CAND_RA17_645677_1:0.1258045096)100:0.5049458510,(CAND_RA17_573113_1:0.0092186181,CAND_RA18_075058_1:0.0000021309)100:0.7633875414)97:0.1979226159,((((CAND_RA16_201238_2:0.0000010000,CAND_RA17_771811_3:0.0000010000)100:0.2186856049,CAND_RA18_671792_4:0.1933505423)100:0.6644754805,CAND_RA18_971114_1:0.9654884715)82:0.1460279253,((((((CAND_RA17_335381_3:0.0000010000,CAND_RA18_950769_1:0.0088427896)82:0.0000028338,CAND_RA23_954894_2:0.0000010000)100:0.0874801572,(CAND_RA18_550752_1:0.0761022918,CAND_RA23_219691_1:0.1466128310)100:0.0521174496)100:0.1392767975,CAND_RA18_912429_1:0.2635939545)100:0.1022928177,(CAND_RA17_041114_1:0.2070551210,CAND_RA18_143695_1:0.0905586090)100:0.9998002928)92:0.1502912347,CAND_RA22_816434_1:0.3167145098)100:0.6405965845)86:0.1450627171)84:0.1325977531,CAND_RA22_630155_1:1.3750005760)98:0.2491993378,(CAND_RA18_605263_1:1.3520076261,CAND_RA23_031507_1:0.9111416622)80:0.1286039779)100:0.7452044583)90:0.2099026583)98:0.3161034127,(((((((CAND_RA17_514474_1:0.0079822346,CAND_RA22_227545_1:0.0000010000)99:0.0309330827,CAND_RA18_556638_1:0.0321196919)91:0.0004621347,CAND_RA22_687697_2:0.0141985559)23:0.0872734985,(CAND_RA22_377396_1:0.1568866897,CAND_RA23_372483_1:0.1797008953)99:0.1809578555)61:0.0731465703,CAND_RA23_452532_1:0.1370019055)99:0.2752794723,CAND_RA18_278027_1:0.5589006366)100:0.5858936532,CAND_RA22_333086_1:1.1832531731)79:0.1565942426)83:0.1834434430,CAND_RA22_948167_1:1.4527602468)82:0.0355195960,CAND_RA22_934783_3:0.6483617583)82:0.1417990989)69:0.0613244737,REF039_FII_Luteitalea_pratensis_A0A143PSW7:0.5840006790)86:0.0930427790)100:0.4657056837)93:0.0503337910,(REF021_FI_Pseudonocardia_autotrophica_Amycola_A0A1Y2N3L2:0.1113290851,CAND_RA22_547253_1:0.2025041619)100:0.3959122512)89:0.0775353301,(((REF003_FI_Thermomicrobium_roseum_strain_ATCC__B9L450:0.1810840239,CAND_RA18_802846_1:0.3485957071)99:0.0639557649,((REF004_FI_Thermogemmatispora_tikiterensis_A0A328VRJ9:0.0006847020,REF005_FI_Thermogemmatispora_aurantia_A0A5J4K876:0.0020656009)100:0.0541985138,REF006_FI_Ktedonobacter_racemifer_DSM_44963_D6TQ73:0.1124109550)100:0.1588944536)98:0.0700834407,(REF012_FI_Bacillus_methanolicus_strain_MGA3_A_I3E8H4:0.2153341000,(REF014_FI_Deinococcus_caeni_A0ABP9UI58:0.2720747598,REF017_FI_Meiothermus_granaticius_NBRC_107808_A0A399F476:0.1977950019)100:0.0824695699)100:0.1033122133)68:0.0413299536)100:0.1781808820)100:0.0930867405,((((((REF011_FI_Actibacterium_lipolyticum_A0A238JPJ5:0.0000023600,CAND_RA16_346473_1:0.0832458847)71:0.0124837111,CAND_RA18_596741_1:0.1203199999)71:0.0351791273,(REF025_FI_Phaeobacter_gallaeciensis_A0A1B0ZWG3:0.0553689029,REF030_FI_Roseovarius_gaetbuli_A0A1X6ZH08:0.0855116605)79:0.0195300872)69:0.0187958563,CAND_RA16_330126_2:0.0684170295)95:0.0453198544,(((REF015_FI_Antarctobacter_heliothermus_A0A222E7I6:0.0332230345,REF020_FI_Maliponia_aquimaris_A0A238KQS5:0.0244609770)100:0.0300357740,REF028_FI_Pseudoruegeria_aquimaris_A0A1Y5RQJ2:0.0438075207)97:0.0250522794,REF031_FI_Ruegeria_arenilitoris_A0A238KMA5:0.0312223255)100:0.0448292693)91:0.0220724511,REF027_FI_Pseudorhizobium_banfieldiae_L0NNE2:0.0609538434)100:0.1488564313)100:0.0834404262,(REF018_FI_Bradyrhizobium_cosmicum_A0AAI8QEB8:0.1274650076,(REF026_FI_Polymorphum_gilvum_strain_LMG_25793_F2IW51:0.0424573625,REF029_FI_Roseibium_aggregatum_A0A0M6Y0E4:0.0458654310)100:0.0477577633)100:0.0440500134);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -92823.710140
+Robinson-Foulds distance between ML tree and consensus tree: 10
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--REF000_FI_Afipia_carboxidovorans_strain_ATCC__P19919
+|
+|           +--REF001_FI_Hydrogenophaga_pseudoflava_Pseudomo_P19913
+|        +--| (98)
+|        |  +--REF032_FI_Tepidimonas_aquatica_A0A554WCA0
+|     +--| (100)
+|     |  |           +--REF007_FI_Paraburkholderia_xenovorans_strain__Q13IY1
+|     |  |        +--| (100)
+|     |  |        |  |  +--REF008_FI_Paraburkholderia_xenovorans_strain__Q13YL7
+|     |  |        |  +--| (100)
+|     |  |        |     +--REF022_FI_Paraburkholderia_dioscoreae_A0A5Q4ZDG8
+|     |  |     +--| (100)
+|     |  |     |  +--REF024_FI_Pararobbsia_alpina_A0A6S7D3Z5
+|     |  |  +--| (99)
+|     |  |  |  |  +--REF009_FI_Cupriavidus_numazuensis_A0ABM8THX1
+|     |  |  |  +--| (100)
+|     |  |  |     +--REF010_FI_Cupriavidus_laharis_A0ABM8WM43
+|     |  +--| (95)
+|     |     +--CAND_RA23_246269_1
+|  +--| (100)
+|  |  |                    +--REF002_FI_Mycolicibacterium_smegmatis_strain__A0QQG4
+|  |  |                 +--| (97)
+|  |  |                 |  +--REF019_FI_Mycolicibacterium_chitae_Mycobacter_A0A448IBW4
+|  |  |              +--| (97)
+|  |  |              |  +--REF016_FI_Mycobacterium_attenuatum_A0A498PSI1
+|  |  |           +--| (100)
+|  |  |           |  +--REF023_FI_Rhodococcus_gordoniae_A0A379LVU4
+|  |  |        +--| (100)
+|  |  |        |  +--REF013_FI_Capillimicrobium_parvum_A0A9E6Y1X1
+|  |  |     +--| (93)
+|  |  |     |  |                            +--REF033_FII_Acidiphilium_multivorum_strain_DSM__F0J165
+|  |  |     |  |                         +--| (96)
+|  |  |     |  |                         |  |     +--REF045_FII_Albidovulum_aquaemixtae_A0A2R8B4Q9
+|  |  |     |  |                         |  |  +--| (95)
+|  |  |     |  |                         |  |  |  |        +--REF048_FII_Ascidiaceihabitans_donghaensis_A0A2R8BD61
+|  |  |     |  |                         |  |  |  |     +--| (76)
+|  |  |     |  |                         |  |  |  |     |  |  +--CAND_RA18_607539_1
+|  |  |     |  |                         |  |  |  |     |  +--| (100)
+|  |  |     |  |                         |  |  |  |     |     +--CAND_RA18_945042_3
+|  |  |     |  |                         |  |  |  |  +--| (76)
+|  |  |     |  |                         |  |  |  |  |  +--REF062_FII_Falsiruegeria_litorea_R37_A0A1Y5S8H3
+|  |  |     |  |                         |  |  |  +--| (100)
+|  |  |     |  |                         |  |  |     +--REF060_FII_Donghicola_eburneus_A0A1M4N221
+|  |  |     |  |                         |  +--| (97)
+|  |  |     |  |                         |     |  +--REF054_FII_Cereibacter_sphaeroides_strain_ATCC_Q3J2E6
+|  |  |     |  |                         |     +--| (100)
+|  |  |     |  |                         |        |  +--CAND_RA18_203704_1
+|  |  |     |  |                         |        +--| (100)
+|  |  |     |  |                         |           |  +--CAND_RA18_590299_2
+|  |  |     |  |                         |           +--| (98)
+|  |  |     |  |                         |              +--CAND_RA23_390421_1
+|  |  |     |  |                      +--| (96)
+|  |  |     |  |                      |  |     +--REF050_FII_Blastochloris_viridis_Rhodopseudomo_A0A0H5BCZ6
+|  |  |     |  |                      |  |  +--| (100)
+|  |  |     |  |                      |  |  |  |     +--REF052_FII_Bradyrhizobium_ivorense_A0A508SVN1
+|  |  |     |  |                      |  |  |  |  +--| (100)
+|  |  |     |  |                      |  |  |  |  |  +--CAND_RA15_697464_1
+|  |  |     |  |                      |  |  |  +--| (99)
+|  |  |     |  |                      |  |  |     +--CAND_RA18_726358_1
+|  |  |     |  |                      |  +--| (87)
+|  |  |     |  |                      |     |  +--REF056_FII_Comamonas_aquatilis_A0ACE2T5A2
+|  |  |     |  |                      |     +--| (100)
+|  |  |     |  |                      |        +--REF058_FII_Cupriavidus_laharis_A0ABM8XSX1
+|  |  |     |  |                   +--| (94)
+|  |  |     |  |                   |  |              +--REF041_FII_Actibacterium_lipolyticum_A0A238JRA4
+|  |  |     |  |                   |  |           +--| (100)
+|  |  |     |  |                   |  |           |  |  +--CAND_RA17_531381_1
+|  |  |     |  |                   |  |           |  +--| (100)
+|  |  |     |  |                   |  |           |     |        +--CAND_RA17_512195_1
+|  |  |     |  |                   |  |           |     |     +--| (100)
+|  |  |     |  |                   |  |           |     |     |  +--CAND_RA22_651576_2
+|  |  |     |  |                   |  |           |     |  +--| (100)
+|  |  |     |  |                   |  |           |     |  |  +--CAND_RA18_915811_1
+|  |  |     |  |                   |  |           |     +--| (100)
+|  |  |     |  |                   |  |           |        |  +--CAND_RA18_951830_1
+|  |  |     |  |                   |  |           |        +--| (99)
+|  |  |     |  |                   |  |           |           +--CAND_RA18_737762_1
+|  |  |     |  |                   |  |        +--| (100)
+|  |  |     |  |                   |  |        |  +---CAND_RA22_212213_3
+|  |  |     |  |                   |  |     +--| (96)
+|  |  |     |  |                   |  |     |  |       +--CAND_RA18_494208_1
+|  |  |     |  |                   |  |     |  |    +--| (97)
+|  |  |     |  |                   |  |     |  |    |  +--CAND_RA18_572927_1
+|  |  |     |  |                   |  |     |  +----| (100)
+|  |  |     |  |                   |  |     |       +---CAND_RA22_680000_1
+|  |  |     |  |                   |  |  +--| (77)
+|  |  |     |  |                   |  |  |  +-----------CAND_RA18_950593_1
+|  |  |     |  |                   |  +--| (90)
+|  |  |     |  |                   |     +-------CAND_RA18_501938_1
+|  |  |     |  |                +--| (95)
+|  |  |     |  |                |  |  +--REF037_FII_Fibrella_aestuarina_BUZ_2_I0KFJ2
+|  |  |     |  |                |  +--| (100)
+|  |  |     |  |                |     |     +--CAND_RA18_864916_1
+|  |  |     |  |                |     |  +--| (95)
+|  |  |     |  |                |     |  |  +--CAND_RA22_487124_1
+|  |  |     |  |                |     +--| (99)
+|  |  |     |  |                |        +--CAND_RA18_683223_1
+|  |  |     |  |             +--| (54)
+|  |  |     |  |             |  |  +--REF043_FII_Deinococcus_aluminii_A0ABP9XBM4
+|  |  |     |  |             |  +--| (100)
+|  |  |     |  |             |     +--REF047_FII_Meiothermus_granaticius_NBRC_107808_A0A399F9R8
+|  |  |     |  |          +--| (98)
+|  |  |     |  |          |  +--REF035_FII_Ardenticatena_maritima_A0A0M8K8I5
+|  |  |     |  |       +--| (98)
+|  |  |     |  |       |  |     +--REF038_FII_Kyrpidia_spormannii_A0A2K8N8V7
+|  |  |     |  |       |  |  +--| (100)
+|  |  |     |  |       |  |  |  +--REF044_FII_Sulfoacidibacillus_ferrooxidans_A0A9X1V6V7
+|  |  |     |  |       |  +--| (100)
+|  |  |     |  |       |     +---REF040_FII_Nitrolancea_hollandica_Lb_I4ED45
+|  |  |     |  |    +--| (69)
+|  |  |     |  |    |  |           +--REF042_FII_Actinomadura_macrotermitis_A0A7K0C220
+|  |  |     |  |    |  |        +--| (99)
+|  |  |     |  |    |  |        |  +--REF059_FII_Streptomonospora_litoralis_A0A4P6PZM8
+|  |  |     |  |    |  |     +--| (100)
+|  |  |     |  |    |  |     |  +--REF061_FII_Streptomyces_smaragdinus_A0A7K0CAR3
+|  |  |     |  |    |  |  +--| (100)
+|  |  |     |  |    |  |  |  |  +--REF053_FII_Nocardioides_aquaticus_A0ABX8EDS7
+|  |  |     |  |    |  |  |  +--| (100)
+|  |  |     |  |    |  |  |     +--REF057_FII_Rhodococcus_coprophilus_A0A2X4U3L5
+|  |  |     |  |    |  +--| (100)
+|  |  |     |  |    |     +------CAND_RA18_204030_1
+|  |  |     |  +----| (100)
+|  |  |     |       |              +--REF034_FII_Actinoallomurus_iriomotensis_A0A9W6W744
+|  |  |     |       |           +--| (97)
+|  |  |     |       |           |  |  +--REF046_FII_Amycolatopsis_bartoniae_A0A8H9IQQ2
+|  |  |     |       |           |  +--| (100)
+|  |  |     |       |           |     +--REF049_FII_Gandjariella_thermophila_A0A4D4J4W8
+|  |  |     |       |     +-----| (100)
+|  |  |     |       |     |     |  +--REF051_FII_Modestobacter_italicus_strain_DSM_4_I4F486
+|  |  |     |       |     |     +--| (100)
+|  |  |     |       |     |        +--REF055_FII_Pseudonocardia_asaccharolytica_DSM__A0A511CWW9
+|  |  |     |       |  +--| (69)
+|  |  |     |       |  |  |  +------REF036_FII_Calidithermus_roseus_A0A399EKG8
+|  |  |     |       |  |  +--| (50)
+|  |  |     |       |  |     |                                    +------REF063_OUT_Bos_taurus_Bovine__P80457
+|  |  |     |       |  |     |                             +------| (100)
+|  |  |     |       |  |     |                             |      +-------REF066_OUT_Rhodobacter_capsulatus_Rhodopseudom_O54051
+|  |  |     |       |  |     |                          +--| (85)
+|  |  |     |       |  |     |                          |  +------------REF065_OUT_Megalodesulfovibrio_gigas_Desulfovi_Q46509
+|  |  |     |       |  |     |                       +--| (89)
+|  |  |     |       |  |     |                       |  |  +-------CAND_RA15_671800_1
+|  |  |     |       |  |     |                       |  +--| (79)
+|  |  |     |       |  |     |                       |     |         +------CAND_RA16_269896_1
+|  |  |     |       |  |     |                       |     +---------| (100)
+|  |  |     |       |  |     |                       |               +--CAND_RA18_378299_1
+|  |  |     |       |  |     |                    +--| (50)
+|  |  |     |       |  |     |                    |  +----------CAND_RA18_120482_1
+|  |  |     |       |  |     |                 +--| (38)
+|  |  |     |       |  |     |                 |  |                 +--CAND_RA18_402778_1
+|  |  |     |       |  |     |                 |  |        +--------| (100)
+|  |  |     |       |  |     |                 |  |        |        +---CAND_RA18_766541_1
+|  |  |     |       |  |     |                 |  |     +--| (51)
+|  |  |     |       |  |     |                 |  |     |  +----------CAND_RA23_547980_1
+|  |  |     |       |  |     |                 |  |  +--| (87)
+|  |  |     |       |  |     |                 |  |  |  +----CAND_RA3_229665_1
+|  |  |     |       |  |     |                 |  +--| (84)
+|  |  |     |       |  |     |                 |     +---------CAND_RA22_066869_1
+|  |  |     |       |  |     |              +--| (83)
+|  |  |     |       |  |     |              |  |  +--------REF064_OUT_Escherichia_coli_strain_K12__Q46799
+|  |  |     |       |  |     |              |  +--| (98)
+|  |  |     |       |  |     |              |     |      +---CAND_RA17_333333_1
+|  |  |     |       |  |     |              |     +------| (100)
+|  |  |     |       |  |     |              |            +---CAND_RA23_269893_1
+|  |  |     |       |  |     |           +--| (88)
+|  |  |     |       |  |     |           |  |                 +--CAND_RA18_889749_1
+|  |  |     |       |  |     |           |  +-----------------| (100)
+|  |  |     |       |  |     |           |                    +--CAND_RA18_807074_1
+|  |  |     |       |  |     |        +--| (98)
+|  |  |     |       |  |     |        |  |           +------------CAND_PWA3_523020_1
+|  |  |     |       |  |     |        |  |        +--| (88)
+|  |  |     |       |  |     |        |  |        |  |           +--CAND_RA14_046742_1
+|  |  |     |       |  |     |        |  |        |  |   +-------| (100)
+|  |  |     |       |  |     |        |  |        |  |   |       +--CAND_RA15_167045_1
+|  |  |     |       |  |     |        |  |        |  +---| (98)
+|  |  |     |       |  |     |        |  |        |      |  +--CAND_RA16_268005_1
+|  |  |     |       |  |     |        |  |        |      +--| (98)
+|  |  |     |       |  |     |        |  |        |         +--CAND_RA18_559322_2
+|  |  |     |       |  |     |        |  |     +--| (97)
+|  |  |     |       |  |     |        |  |     |  +---CAND_RA18_018977_2
+|  |  |     |       |  |     |        |  |  +--| (99)
+|  |  |     |       |  |     |        |  |  |  |   +--------CAND_RA16_109305_4
+|  |  |     |       |  |     |        |  |  |  +---| (100)
+|  |  |     |       |  |     |        |  |  |      +------CAND_RA16_722222_1
+|  |  |     |       |  |     |        |  +--| (90)
+|  |  |     |       |  |     |        |     |                                 +--CAND_RA16_169932_1
+|  |  |     |       |  |     |        |     |                              +--| (100)
+|  |  |     |       |  |     |        |     |                              |  +--CAND_RA17_685634_1
+|  |  |     |       |  |     |        |     |                           +--| (98)
+|  |  |     |       |  |     |        |     |                           |  +--CAND_RA18_584483_1
+|  |  |     |       |  |     |        |     |                        +--| (99)
+|  |  |     |       |  |     |        |     |                        |  +--CAND_RA18_850594_1
+|  |  |     |       |  |     |        |     |                     +--| (99)
+|  |  |     |       |  |     |        |     |                     |  |     +--CAND_RA18_259058_1
+|  |  |     |       |  |     |        |     |                     |  |  +--| (100)
+|  |  |     |       |  |     |        |     |                     |  |  |  +--CAND_RA22_593801_2
+|  |  |     |       |  |     |        |     |                     |  +--| (100)
+|  |  |     |       |  |     |        |     |                     |     +--CAND_RA18_741650_1
+|  |  |     |       |  |     |        |     |                +----| (100)
+|  |  |     |       |  |     |        |     |                |    +--CAND_RA17_645677_1
+|  |  |     |       |  |     |        |     |             +--| (97)
+|  |  |     |       |  |     |        |     |             |  |       +--CAND_RA17_573113_1
+|  |  |     |       |  |     |        |     |             |  +-------| (100)
+|  |  |     |       |  |     |        |     |             |          +--CAND_RA18_075058_1
+|  |  |     |       |  |     |        |     |          +--| (84)
+|  |  |     |       |  |     |        |     |          |  |                     +**CAND_RA16_201238_2
+|  |  |     |       |  |     |        |     |          |  |                  +**|
+|  |  |     |       |  |     |        |     |          |  |                  |  +**CAND_RA18_534989_2
+|  |  |     |       |  |     |        |     |          |  |               +--|
+|  |  |     |       |  |     |        |     |          |  |               |  +**CAND_RA23_401706_3
+|  |  |     |       |  |     |        |     |          |  |            +--| (100)
+|  |  |     |       |  |     |        |     |          |  |            |  +--CAND_RA17_771811_3
+|  |  |     |       |  |     |        |     |          |  |     +------| (100)
+|  |  |     |       |  |     |        |     |          |  |     |      +--CAND_RA18_671792_4
+|  |  |     |       |  |     |        |     |          |  |  +--| (82)
+|  |  |     |       |  |     |        |     |          |  |  |  +----------CAND_RA18_971114_1
+|  |  |     |       |  |     |        |     |          |  +--| (86)
+|  |  |     |       |  |     |        |     |          |     |                     +--CAND_RA17_335381_3
+|  |  |     |       |  |     |        |     |          |     |                  +--| (82)
+|  |  |     |       |  |     |        |     |          |     |                  |  +--CAND_RA18_950769_1
+|  |  |     |       |  |     |        |     |          |     |               +--| (100)
+|  |  |     |       |  |     |        |     |          |     |               |  +--CAND_RA23_954894_2
+|  |  |     |       |  |     |        |     |          |     |            +--| (100)
+|  |  |     |       |  |     |        |     |          |     |            |  |  +--CAND_RA18_550752_1
+|  |  |     |       |  |     |        |     |          |     |            |  +--| (100)
+|  |  |     |       |  |     |        |     |          |     |            |     +--CAND_RA23_219691_1
+|  |  |     |       |  |     |        |     |          |     |         +--| (100)
+|  |  |     |       |  |     |        |     |          |     |         |  +--CAND_RA18_912429_1
+|  |  |     |       |  |     |        |     |          |     |      +--| (92)
+|  |  |     |       |  |     |        |     |          |     |      |  |          +--CAND_RA17_041114_1
+|  |  |     |       |  |     |        |     |          |     |      |  +----------| (100)
+|  |  |     |       |  |     |        |     |          |     |      |             +--CAND_RA18_143695_1
+|  |  |     |       |  |     |        |     |          |     +------| (100)
+|  |  |     |       |  |     |        |     |          |            +--CAND_RA22_816434_1
+|  |  |     |       |  |     |        |     |       +--| (98)
+|  |  |     |       |  |     |        |     |       |  +--------------CAND_RA22_630155_1
+|  |  |     |       |  |     |        |     +-------| (100)
+|  |  |     |       |  |     |        |             |  +--------------CAND_RA18_605263_1
+|  |  |     |       |  |     |        |             +--| (80)
+|  |  |     |       |  |     |        |                +---------CAND_RA23_031507_1
+|  |  |     |       |  |     |     +--| (83)
+|  |  |     |       |  |     |     |  |                       +--CAND_RA17_514474_1
+|  |  |     |       |  |     |     |  |                    +--| (99)
+|  |  |     |       |  |     |     |  |                    |  +--CAND_RA22_227545_1
+|  |  |     |       |  |     |     |  |                 +--| (91)
+|  |  |     |       |  |     |     |  |                 |  +--CAND_RA18_556638_1
+|  |  |     |       |  |     |     |  |              +--| (43)
+|  |  |     |       |  |     |     |  |              |  |  +--CAND_RA22_377396_1
+|  |  |     |       |  |     |     |  |              |  +--| (99)
+|  |  |     |       |  |     |     |  |              |     +--CAND_RA23_372483_1
+|  |  |     |       |  |     |     |  |           +--| (61)
+|  |  |     |       |  |     |     |  |           |  +--CAND_RA22_687697_2
+|  |  |     |       |  |     |     |  |        +--| (99)
+|  |  |     |       |  |     |     |  |        |  +--CAND_RA23_452532_1
+|  |  |     |       |  |     |     |  |  +-----| (100)
+|  |  |     |       |  |     |     |  |  |     +-----CAND_RA18_278027_1
+|  |  |     |       |  |     |     |  +--| (79)
+|  |  |     |       |  |     |     |     +------------CAND_RA22_333086_1
+|  |  |     |       |  |     |  +--| (82)
+|  |  |     |       |  |     |  |  +---------------CAND_RA22_948167_1
+|  |  |     |       |  |     +--| (82)
+|  |  |     |       |  |        +------CAND_RA22_934783_3
+|  |  |     |       +--| (86)
+|  |  |     |          +-----REF039_FII_Luteitalea_pratensis_A0A143PSW7
+|  |  |  +--| (89)
+|  |  |  |  |   +--REF021_FI_Pseudonocardia_autotrophica_Amycola_A0A1Y2N3L2
+|  |  |  |  +---| (100)
+|  |  |  |      +--CAND_RA22_547253_1
+|  |  +--| (100)
+|  |     |        +--REF003_FI_Thermomicrobium_roseum_strain_ATCC__B9L450
+|  |     |     +--| (99)
+|  |     |     |  +--CAND_RA18_802846_1
+|  |     |  +--| (98)
+|  |     |  |  |     +--REF004_FI_Thermogemmatispora_tikiterensis_A0A328VRJ9
+|  |     |  |  |  +--| (100)
+|  |     |  |  |  |  +--REF005_FI_Thermogemmatispora_aurantia_A0A5J4K876
+|  |     |  |  +--| (100)
+|  |     |  |     +--REF006_FI_Ktedonobacter_racemifer_DSM_44963_D6TQ73
+|  |     +--| (68)
+|  |        |  +--REF012_FI_Bacillus_methanolicus_strain_MGA3_A_I3E8H4
+|  |        +--| (100)
+|  |           |  +--REF014_FI_Deinococcus_caeni_A0ABP9UI58
+|  |           +--| (100)
+|  |              +--REF017_FI_Meiothermus_granaticius_NBRC_107808_A0A399F476
++--| (100)
+|  |                 +--REF011_FI_Actibacterium_lipolyticum_A0A238JPJ5
+|  |              +--| (71)
+|  |              |  +--CAND_RA16_346473_1
+|  |           +--| (71)
+|  |           |  +--CAND_RA18_596741_1
+|  |        +--| (69)
+|  |        |  |  +--REF025_FI_Phaeobacter_gallaeciensis_A0A1B0ZWG3
+|  |        |  +--| (79)
+|  |        |     +--REF030_FI_Roseovarius_gaetbuli_A0A1X6ZH08
+|  |     +--| (95)
+|  |     |  +--CAND_RA16_330126_2
+|  |  +--| (91)
+|  |  |  |        +--REF015_FI_Antarctobacter_heliothermus_A0A222E7I6
+|  |  |  |     +--| (100)
+|  |  |  |     |  +--REF020_FI_Maliponia_aquimaris_A0A238KQS5
+|  |  |  |  +--| (97)
+|  |  |  |  |  +--REF028_FI_Pseudoruegeria_aquimaris_A0A1Y5RQJ2
+|  |  |  +--| (100)
+|  |  |     +--REF031_FI_Ruegeria_arenilitoris_A0A238KMA5
+|  +--| (100)
+|     +--REF027_FI_Pseudorhizobium_banfieldiae_L0NNE2
+|
+|  +--REF018_FI_Bradyrhizobium_cosmicum_A0AAI8QEB8
++--| (100)
+   |  +--REF026_FI_Polymorphum_gilvum_strain_LMG_25793_F2IW51
+   +--| (100)
+      +--REF029_FI_Roseibium_aggregatum_A0A0M6Y0E4
+
+
+Consensus tree in newick format: 
+
+(REF000_FI_Afipia_carboxidovorans_strain_ATCC__P19919:0.1438080136,((((REF001_FI_Hydrogenophaga_pseudoflava_Pseudomo_P19913:0.1028198111,REF032_FI_Tepidimonas_aquatica_A0A554WCA0:0.0977637910)98:0.0916654677,((((REF007_FI_Paraburkholderia_xenovorans_strain__Q13IY1:0.0242031946,(REF008_FI_Paraburkholderia_xenovorans_strain__Q13YL7:0.0026746872,REF022_FI_Paraburkholderia_dioscoreae_A0A5Q4ZDG8:0.0013119239)100:0.0106506937)100:0.0190815433,REF024_FI_Pararobbsia_alpina_A0A6S7D3Z5:0.0507213144)100:0.0399690467,(REF009_FI_Cupriavidus_numazuensis_A0ABM8THX1:0.0092845406,REF010_FI_Cupriavidus_laharis_A0ABM8WM43:0.0107713036)100:0.0612503544)99:0.0995816853,CAND_RA23_246269_1:0.3053932690)95:0.0607169778)100:0.0950473529,(((((((REF002_FI_Mycolicibacterium_smegmatis_strain__A0QQG4:0.0437492272,REF019_FI_Mycolicibacterium_chitae_Mycobacter_A0A448IBW4:0.0342944382)97:0.0191683392,REF016_FI_Mycobacterium_attenuatum_A0A498PSI1:0.0676690650)97:0.0311012309,REF023_FI_Rhodococcus_gordoniae_A0A379LVU4:0.0874575990)100:0.1359776988,REF013_FI_Capillimicrobium_parvum_A0A9E6Y1X1:0.1470288706)100:0.1644035647,(((((((((REF033_FII_Acidiphilium_multivorum_strain_DSM__F0J165:0.2541250655,((REF045_FII_Albidovulum_aquaemixtae_A0A2R8B4Q9:0.1267571082,(((REF048_FII_Ascidiaceihabitans_donghaensis_A0A2R8BD61:0.0781358943,(CAND_RA18_607539_1:0.1083941143,CAND_RA18_945042_3:0.1432895386)100:0.0785428060)76:0.0344745827,REF062_FII_Falsiruegeria_litorea_R37_A0A1Y5S8H3:0.0884704668)76:0.0219007501,REF060_FII_Donghicola_eburneus_A0A1M4N221:0.0685642070)100:0.1016749207)95:0.0772761757,(REF054_FII_Cereibacter_sphaeroides_strain_ATCC_Q3J2E6:0.1520784590,(CAND_RA18_203704_1:0.0329139439,(CAND_RA18_590299_2:0.0400751482,CAND_RA23_390421_1:0.0206172938)98:0.0310719922)100:0.1740148763)100:0.1138253220)97:0.1651776845)96:0.0414511590,((REF050_FII_Blastochloris_viridis_Rhodopseudomo_A0A0H5BCZ6:0.2381751212,((REF052_FII_Bradyrhizobium_ivorense_A0A508SVN1:0.1707790020,CAND_RA15_697464_1:0.1157486367)100:0.0721506734,CAND_RA18_726358_1:0.2950355212)99:0.1057153079)100:0.1216669580,(REF056_FII_Comamonas_aquatilis_A0ACE2T5A2:0.2446199905,REF058_FII_Cupriavidus_laharis_A0ABM8XSX1:0.1668814646)100:0.1255879695)87:0.0548056007)96:0.0350773137,(((((REF041_FII_Actibacterium_lipolyticum_A0A238JRA4:0.2446216123,(CAND_RA17_531381_1:0.2311379939,(((CAND_RA17_512195_1:0.0000024167,CAND_RA22_651576_2:0.0000020847)100:0.0179708925,CAND_RA18_915811_1:0.2024536653)100:0.1213831273,(CAND_RA18_951830_1:0.1094896029,CAND_RA18_737762_1:0.0784255441)99:0.0737806390)100:0.1481192874)100:0.1491185618)100:0.1344399031,CAND_RA22_212213_3:0.3670503961)100:0.1706915249,((CAND_RA18_494208_1:0.0051968280,CAND_RA18_572927_1:0.0610454561)97:0.3099983591,CAND_RA22_680000_1:0.4023019096)100:0.4835528839)96:0.2653558644,CAND_RA18_950593_1:1.1060620546)77:0.0659195999,CAND_RA18_501938_1:0.7319248533)90:0.2390183573)94:0.1039977181,(REF037_FII_Fibrella_aestuarina_BUZ_2_I0KFJ2:0.2272952255,((CAND_RA18_864916_1:0.2264184738,CAND_RA22_487124_1:0.2500718276)95:0.0471409556,CAND_RA18_683223_1:0.1742326579)99:0.0730411209)100:0.1749598172)95:0.1134584582,(REF043_FII_Deinococcus_aluminii_A0ABP9XBM4:0.2491831371,REF047_FII_Meiothermus_granaticius_NBRC_107808_A0A399F9R8:0.2296201941)100:0.2035497268)54:0.0481356187,REF035_FII_Ardenticatena_maritima_A0A0M8K8I5:0.2425775040)98:0.1247706637,((REF038_FII_Kyrpidia_spormannii_A0A2K8N8V7:0.1482815027,REF044_FII_Sulfoacidibacillus_ferrooxidans_A0A9X1V6V7:0.2478590637)100:0.1666618845,REF040_FII_Nitrolancea_hollandica_Lb_I4ED45:0.3525366540)100:0.1144518394)98:0.1058562998,((((REF042_FII_Actinomadura_macrotermitis_A0A7K0C220:0.2078665865,REF059_FII_Streptomonospora_litoralis_A0A4P6PZM8:0.1686709677)99:0.0493653931,REF061_FII_Streptomyces_smaragdinus_A0A7K0CAR3:0.2676358543)100:0.0666808056,(REF053_FII_Nocardioides_aquaticus_A0ABX8EDS7:0.3204965157,REF057_FII_Rhodococcus_coprophilus_A0A2X4U3L5:0.1822257191)100:0.1041733621)100:0.1656041802,CAND_RA18_204030_1:0.6996836692)100:0.2302152165)69:0.0514825111,((((REF034_FII_Actinoallomurus_iriomotensis_A0A9W6W744:0.2603868132,(REF046_FII_Amycolatopsis_bartoniae_A0A8H9IQQ2:0.1761862401,REF049_FII_Gandjariella_thermophila_A0A4D4J4W8:0.1656339786)100:0.1696242239)97:0.0806358415,(REF051_FII_Modestobacter_italicus_strain_DSM_4_I4F486:0.2921944463,REF055_FII_Pseudonocardia_asaccharolytica_DSM__A0A511CWW9:0.2613646876)100:0.1552276671)100:0.5467801755,(REF036_FII_Calidithermus_roseus_A0A399EKG8:0.6251506834,(((((((((((REF063_OUT_Bos_taurus_Bovine__P80457:0.6447241688,REF066_OUT_Rhodobacter_capsulatus_Rhodopseudom_O54051:0.7384061707)100:0.6761226043,REF065_OUT_Megalodesulfovibrio_gigas_Desulfovi_Q46509:1.1618261668)85:0.1471139027,(CAND_RA15_671800_1:0.7773694541,(CAND_RA16_269896_1:0.6462877333,CAND_RA18_378299_1:0.3040753593)100:0.9236383886)79:0.1157978297)89:0.1052604502,CAND_RA18_120482_1:0.9807051852)50:0.0644286297,((((CAND_RA18_402778_1:0.1003352030,CAND_RA18_766541_1:0.3869500487)100:0.8425461007,CAND_RA23_547980_1:0.9954687843)51:0.0262952949,CAND_RA3_229665_1:0.4686251755)87:0.2273596309,CAND_RA22_066869_1:0.9524008858)84:0.1804409050)38:0.0904634989,(REF064_OUT_Escherichia_coli_strain_K12__Q46799:0.8535205142,(CAND_RA17_333333_1:0.3791087772,CAND_RA23_269893_1:0.3903638258)100:0.6481806012)98:0.3471223789)83:0.0813977000,(CAND_RA18_889749_1:0.0289416752,CAND_RA18_807074_1:0.0224452566)100:1.5929872452)88:0.1186573252,((((CAND_PWA3_523020_1:1.1435637039,((CAND_RA14_046742_1:0.0024432244,CAND_RA15_167045_1:0.0080890188)100:0.7298493986,(CAND_RA16_268005_1:0.1050834605,CAND_RA18_559322_2:0.2361574626)98:0.1290959709)98:0.4033785366)88:0.1175759746,CAND_RA18_018977_2:0.4127869498)97:0.1969687605,(CAND_RA16_109305_4:0.8395157675,CAND_RA16_722222_1:0.6744336707)100:0.3983778066)99:0.3110717951,(((((((((CAND_RA16_169932_1:0.0000021381,CAND_RA17_685634_1:0.0000021381)100:0.0217221285,CAND_RA18_584483_1:0.0294122208)98:0.0344560852,CAND_RA18_850594_1:0.1015543191)99:0.0106553569,((CAND_RA18_259058_1:0.0228049222,CAND_RA22_593801_2:0.0033739137)100:0.0343049806,CAND_RA18_741650_1:0.0402209993)100:0.0256848655)99:0.1218967619,CAND_RA17_645677_1:0.1263510327)100:0.5055134344,(CAND_RA17_573113_1:0.0092167437,CAND_RA18_075058_1:0.0000027109)100:0.7644852823)97:0.1982949047,((((((CAND_RA16_201238_2:0.0000000000,CAND_RA18_534989_2:0.0000000000):0.0000000000,CAND_RA23_401706_3:0.0000000000):0.0000021381,CAND_RA17_771811_3:0.0000021381)100:0.2187803482,CAND_RA18_671792_4:0.1937216062)100:0.6672042411,CAND_RA18_971114_1:0.9671151552)82:0.1464765500,((((((CAND_RA17_335381_3:0.0000027892,CAND_RA18_950769_1:0.0088434670)82:0.0000029945,CAND_RA23_954894_2:0.0000021381)100:0.0876611662,(CAND_RA18_550752_1:0.0761560283,CAND_RA23_219691_1:0.1467190468)100:0.0520490105)100:0.1392741686,CAND_RA18_912429_1:0.2641990901)100:0.1024628208,(CAND_RA17_041114_1:0.2072257330,CAND_RA18_143695_1:0.0908246928)100:1.0013311312)92:0.1506195942,CAND_RA22_816434_1:0.3175095696)100:0.6413040678)86:0.1442009595)84:0.1245890219,CAND_RA22_630155_1:1.3880297192)98:0.2440416773,(CAND_RA18_605263_1:1.3572991006,CAND_RA23_031507_1:0.9150805864)80:0.1352259723)100:0.7544869293)90:0.2037633661)98:0.3114084402,(((((((CAND_RA17_514474_1:0.0079543930,CAND_RA22_227545_1:0.0000021381)99:0.0304290684,CAND_RA18_556638_1:0.0323255170)91:0.0895649183,(CAND_RA22_377396_1:0.1577116702,CAND_RA23_372483_1:0.1772874489)99:0.1770441006)43:0.0233223794,CAND_RA22_687697_2:0.0956224943)61:0.0506698363,CAND_RA23_452532_1:0.1362044301)99:0.2883655855,CAND_RA18_278027_1:0.5499811018)100:0.5872252433,CAND_RA22_333086_1:1.1656614493)79:0.1650552495)83:0.1637887667,CAND_RA22_948167_1:1.4563565198)82:0.0564507570,CAND_RA22_934783_3:0.6426652089)82:0.1015163473)50:0.0651242960)69:0.0657522901,REF039_FII_Luteitalea_pratensis_A0A143PSW7:0.5831933804)86:0.0920040294)100:0.4633484872)93:0.0506901100,(REF021_FI_Pseudonocardia_autotrophica_Amycola_A0A1Y2N3L2:0.1111468753,CAND_RA22_547253_1:0.2025390602)100:0.3962927798)89:0.0773331562,(((REF003_FI_Thermomicrobium_roseum_strain_ATCC__B9L450:0.1809431102,CAND_RA18_802846_1:0.3487830379)99:0.0640869429,((REF004_FI_Thermogemmatispora_tikiterensis_A0A328VRJ9:0.0006847417,REF005_FI_Thermogemmatispora_aurantia_A0A5J4K876:0.0020649665)100:0.0541852635,REF006_FI_Ktedonobacter_racemifer_DSM_44963_D6TQ73:0.1124766568)100:0.1589315140)98:0.0702133411,(REF012_FI_Bacillus_methanolicus_strain_MGA3_A_I3E8H4:0.2155964603,(REF014_FI_Deinococcus_caeni_A0ABP9UI58:0.2722566369,REF017_FI_Meiothermus_granaticius_NBRC_107808_A0A399F476:0.1978592606)100:0.0823214532)100:0.1032930029)68:0.0413562741)100:0.1779622072)100:0.0930397213,((((((REF011_FI_Actibacterium_lipolyticum_A0A238JPJ5:0.0000021515,CAND_RA16_346473_1:0.0832044683)71:0.0124877193,CAND_RA18_596741_1:0.1203624978)71:0.0351936081,(REF025_FI_Phaeobacter_gallaeciensis_A0A1B0ZWG3:0.0553908627,REF030_FI_Roseovarius_gaetbuli_A0A1X6ZH08:0.0855365246)79:0.0195343987)69:0.0188037155,CAND_RA16_330126_2:0.0684419503)95:0.0453430861,(((REF015_FI_Antarctobacter_heliothermus_A0A222E7I6:0.0332362993,REF020_FI_Maliponia_aquimaris_A0A238KQS5:0.0244715103)100:0.0300531830,REF028_FI_Pseudoruegeria_aquimaris_A0A1Y5RQJ2:0.0438212993)97:0.0250604320,REF031_FI_Ruegeria_arenilitoris_A0A238KMA5:0.0312345928)100:0.0448455165)91:0.0220838765,REF027_FI_Pseudorhizobium_banfieldiae_L0NNE2:0.0609720172)100:0.1488355949)100:0.0835076102,(REF018_FI_Bradyrhizobium_cosmicum_A0AAI8QEB8:0.1274548673,(REF026_FI_Polymorphum_gilvum_strain_LMG_25793_F2IW51:0.0424682164,REF029_FI_Roseibium_aggregatum_A0A0M6Y0E4:0.0458804623)100:0.0478157830)100:0.0440688789);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t coxL_iqtree.treefile -m "LG+G4{1.59216}" --length 1714
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s tree_input.aln --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s tree_input.aln --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Oct  1 18:09:27 2026
+Total CPU time used: 2703.565027 seconds (0h:45m:3s)
+Total wall-clock time used: 691.1787529 seconds (0h:11m:31s)
+

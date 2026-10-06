@@ -1,0 +1,37 @@
+marker	decision	subcategory	n_refs	evidence
+DddP	keep	DMS_DMSP_organosulfur	75	specific DMSP lyase; coherent reference family
+dddL	keep	DMS_DMSP_organosulfur	6	specific DMSP lyase
+dmdA	keep	DMS_DMSP_organosulfur	40	specific DMSP demethylase
+dmdB	keep	DMS_DMSP_organosulfur	296	specific DMSP demethylation pathway
+dmdD	keep	DMS_DMSP_organosulfur	61	specific DMSP demethylation pathway
+mddA	keep	DMS_DMSP_organosulfur	23	specific methanethiol S-methyltransferase (DMS production)
+MtsA	keep	DMS_DMSP_organosulfur	25	specific methylthiol/methyltransferase
+Tmmm	keep	Methylated_amines	32	trimethylamine monooxygenase; specific
+mtoX	keep	Methylated_amines	42	methylated-amine oxidation; specific
+dmoA	keep	Methylated_amines	438	dimethylamine/methylated-substrate monooxygenase; specific gene
+Thiosulfohydrolase_SoxB	keep	Sulfur_oxidation	NA	specific SOX sulfur-oxidation gene (count not retrieved: _sequences_ header suffix)
+Sulfide_quinone_oxidoreductase_Sqr	keep	Sulfur_oxidation	NA	specific sulfide oxidation gene
+Flavocytochrome_c_sulfide_dehydrogenase_FCC	keep	Sulfur_oxidation	NA	specific sulfide oxidation gene
+Sulfur_oxygenase_reductase_Sor	keep	Sulfur_oxidation	NA	specific sulfur oxygenase/reductase
+Dissimilatory_sulfite_reductase_DsrA	keep	Sulfur_oxidation	NA	reversible DsrA; sulfur oxidation in chemolithotrophs
+Particulate_methane_monooxygenase_PmoA	keep	Methanotrophy	85	specific pMMO subunit
+PmoA	keep	Methanotrophy	NA	specific pMMO subunit (alt name)
+Soluble_methane_monooxygenase_MmoA	keep	Methanotrophy	21	specific sMMO subunit
+MmoA	keep	Methanotrophy	NA	specific sMMO subunit (alt name)
+Isoprene_monooxygenase_subunit_A	keep	Isoprene	26	specific isoprene monooxygenase
+xoxF	keep	Methylotrophy	16	curated Ln-dependent methanol DH (replaces generic MDH)
+mxaF	keep	Methylotrophy	8	curated Ca-dependent methanol DH large subunit
+mauA	keep	Methylotrophy	10	curated methylamine DH light chain
+phrB	keep	Photoprotection_UV_desiccation	13	curated DNA photolyase (UV repair); atmosphere-diagnostic
+crtB	keep	Photoprotection_UV_desiccation	15	curated phytoene synthase (carotenoid photoprotection)
+crtI	keep	Photoprotection_UV_desiccation	8	curated phytoene desaturase (carotenoid)
+otsA	keep	Photoprotection_UV_desiccation	43	curated trehalose-6-P synthase (desiccation)
+otsB	keep	Photoprotection_UV_desiccation	14	curated trehalose-6-P phosphatase (desiccation)
+sodC	keep	Photoprotection_UV_desiccation	26	curated Cu/Zn-SOD; NOTE broad aerobic oxidative-stress gene, less atmosphere-specific
+Carbon_monoxide_dehydrogenase_CoxL	drop	(was Trace_gas_CO)	709	HARD EVIDENCE: of 17 air ORFs spanning the catalytic-Cys site, 13 are form II (Gly, non-CO-oxidizing), only 2 form I (Cys). Generic 709-seq bucket. Not an atmospheric CO-oxidation signal.
+NiFe_hydrogenase	drop_generic_resolved	(was Trace_gas_H2)	2015	HARD EVIDENCE: generic marker = 2015 unlabeled refs (= whole HydDB NiFe set) spanning groups 1-4. HydDB DIAMOND classification of the 79 air ORFs: 78% group 4 (energy-converting/fermentative, NON-atmospheric) -> generic marker correctly dropped. BUT 10 ORFs = group 1l (atmospheric high-affinity H2 uptake, 7 confident), confined to RA18+RA22 (Antarctic; RA18 in AR window); 0 group 1h. Atmospheric H2 oxidation IS present as group 1l -> quantify separately with a 1l-specific reference, not the generic marker. See air_nife_hyddb.R.
+FeFe_hydrogenase	drop	(was Trace_gas_H2)	1221	[FeFe] hydrogenases are fermentative/H2-evolving (anaerobic), NOT high-affinity atmospheric H2 uptake; mis-labeled as atmospheric trace-gas.
+Fe_hydrogenase	drop	(was Trace_gas_H2)	NA	same as FeFe; not atmospheric H2 uptake
+MDH	drop	(was Methylotrophy)	638	generic PQQ alcohol-dehydrogenase bucket (33% of old air signal but NOT enriched, 1.05x); superseded by curated xoxF/mxaF
+Formate_dehydrogenase_FdhA	drop	(was C1)	12830	largest generic bucket; formate-DH is a broad redox enzyme, not an atmospheric-lifestyle diagnostic
+Anaerobic_sulfite_reductase_AsrA	drop	(was Sulfur)	NA	anaerobic sulfite reduction; not an aerobic-aerosol sulfur-oxidation signal

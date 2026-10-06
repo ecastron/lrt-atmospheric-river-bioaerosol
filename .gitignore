@@ -1,0 +1,42 @@
+# Data and processed objects (distributed through NCBI SRA and the Supplementary Data)
+*.RDS
+*.rds
+*.RData
+*.fastq
+*.fastq.gz
+*.fa
+*.fasta
+*.faa
+*.nwk
+*.tre
+*.contree
+*.aln
+raw_data/
+18S/data/
+16S/ACEDATA/
+ITS/trimmed/
+ITS/filtered_R1/
+16S/FAPROTAX_1.2.12/
+ITS/sh_general_release_all_19.02.2025/
+
+# Outputs
+figures/
+16S/figures/
+*.pdf
+*.png
+*.svg
+*.xlsx
+*.tsv
+*.csv
+*.txt
+*.log
+reads_out/
+16S/sensitivity_organelles_01OCT26/*
+!16S/sensitivity_organelles_01OCT26/*.R
+
+# System
+.DS_Store
+.Rhistory
+.Rproj.user/
+__pycache__/
+*.pyc

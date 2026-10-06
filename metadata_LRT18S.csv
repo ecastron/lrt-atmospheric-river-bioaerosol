@@ -1,0 +1,200 @@
+﻿,sample_name,sample_type,site
+GUS1,GUS1,sediment,Union Glacier
+GUS2,GUS2,sediment,Union Glacier
+GUS3,GUS3,sediment,Union Glacier
+GUS4,GUS4,sediment,Union Glacier
+GUS5,GUS5,sediment,Union Glacier
+GUS6,GUS6,sediment,Union Glacier
+PAA1,PAA1,air,Punta Arenas
+PAA2,PAA2,air,Punta Arenas
+PAA3,PAA3,air,Punta Arenas
+PAA4,PAA4,air,Punta Arenas
+PAA5,PAA5,coriolis_control,Punta Arenas
+PAA6,PAA6,deposition_control,Punta Arenas
+PAS1,PAS1,bulk_soil,Punta Arenas
+PAS2,PAS2,bulk_soil,Punta Arenas
+PAS3,PAS3,bulk_soil,Punta Arenas
+PAS4,PAS4,bulk_soil,Punta Arenas
+PatCB1,PatCB1,buffer_control,Patagonia
+PNA1,PNA1,air,Puerto Natales
+PNA2,PNA2,air,Puerto Natales
+PNA3,PNA3,air,Puerto Natales
+PNA4,PNA4,air,Puerto Natales
+PNA5,PNA5,coriolis_control,Puerto Natales
+PNA6,PNA6,deposition_control,Puerto Natales
+PNS1,PNS1,bulk_soil,Puerto Natales
+PNS2,PNS2,bulk_soil,Puerto Natales
+PNS3,PNS3,bulk_soil,Puerto Natales
+PNS4,PNS4,bulk_soil,Puerto Natales
+PVA1,PVA1,air,Porvenir
+PVA2,PVA2,air,Porvenir
+PVA3,PVA3,air,Porvenir
+PVA4,PVA4,air,Porvenir
+PVA5,PVA5,coriolis_control,Porvenir
+PVA6,PVA6,deposition_control,Porvenir
+PVS1,PVS1,bulk_soil,Porvenir
+PVS2,PVS2,bulk_soil,Porvenir
+PVS3,PVS3,bulk_soil,Porvenir
+PVS4,PVS4,bulk_soil,Porvenir
+PWA1,PWA1,air,Puerto Williams
+PWA2,PWA2,air,Puerto Williams
+PWA3,PWA3,air,Puerto Williams
+PWA4,PWA4,air,Puerto Williams
+PWA5,PWA5,coriolis_control,Puerto Williams
+PWA6,PWA6,deposition_control,Puerto Williams
+PWS1,PWS1,bulk_soil,Puerto Williams
+PWS2,PWS2,bulk_soil,Puerto Williams
+PWS3,PWS3,bulk_soil,Puerto Williams
+PWS4,PWS4,bulk_soil,Puerto Williams
+RA1,RA1,air,Risopatron
+RA10,RA10,air,Risopatron
+RA11,RA11,air,Risopatron
+RA12,RA12,air,Risopatron
+RA13,RA13,air,Risopatron
+RA14,RA14,air,Risopatron
+RA15,RA15,air,Risopatron
+RA16,RA16,air,Risopatron
+RA17,RA17,air,Risopatron
+RA18,RA18,air,Risopatron
+RA19,RA19,air,Risopatron
+RA2,RA2,air,Risopatron
+RA20,RA20,air,Risopatron
+RA21,RA21,air,Risopatron
+RA22,RA22,air,Risopatron
+RA23,RA23,air,Risopatron
+RA24,RA24,air,Risopatron
+RA25,RA25,coriolis_control,Risopatron
+RA26,RA26,deposition_control,Risopatron
+RA27,RA27,buffer_control,Risopatron
+RA28,RA28,deposition_control,Risopatron
+RA29,RA29,buffer_control,Risopatron
+RA3,RA3,air,Risopatron
+RA30,RA30,deposition_control,Risopatron
+RA31,RA31,buffer_control,Risopatron
+RA32,RA32,deposition_control,Risopatron
+RA4,RA4,air,Risopatron
+RA5,RA5,air,Risopatron
+RA6,RA6,air,Risopatron
+RA7,RA7,air,Risopatron
+RA8,RA8,air,Risopatron
+RA9,RA9,air,Risopatron
+RS1,RS1,da,Risopatron
+RS10,RS10,bulk_soil,Risopatron
+RS11,RS11,da,Risopatron
+RS12,RS12,da,Risopatron
+RS13,RS13,da,Risopatron
+RS14,RS14,da,Risopatron
+RS15,RS15,da,Risopatron
+RS16,RS16,bulk_soil,Risopatron
+RS17,RS17,bulk_soil,Risopatron
+RS18,RS18,bulk_soil,Risopatron
+RS19,RS19,bulk_soil,Risopatron
+RS2,RS2,da,Risopatron
+RS20,RS20,bulk_soil,Risopatron
+RS21,RS21,da,Risopatron
+RS22,RS22,da,Risopatron
+RS23,RS23,da,Risopatron
+RS24,RS24,da,Risopatron
+RS25,RS25,da,Risopatron
+RS26,RS26,bulk_soil,Risopatron
+RS27,RS27,bulk_soil,Risopatron
+RS28,RS28,bulk_soil,Risopatron
+RS29,RS29,bulk_soil,Risopatron
+RS3,RS3,da,Risopatron
+RS30,RS30,bulk_soil,Risopatron
+RS31,RS31,da,Risopatron
+RS32,RS32,da,Risopatron
+RS33,RS33,da,Risopatron
+RS34,RS34,da,Risopatron
+RS35,RS35,da,Risopatron
+RS36,RS36,bulk_soil,Risopatron
+RS37,RS37,bulk_soil,Risopatron
+RS38,RS38,bulk_soil,Risopatron
+RS39,RS39,bulk_soil,Risopatron
+RS4,RS4,da,Risopatron
+RS40,RS40,bulk_soil,Risopatron
+RS41,RS41,da,Risopatron
+RS42,RS42,da,Risopatron
+RS43,RS43,da,Risopatron
+RS44,RS44,da,Risopatron
+RS45,RS45,da,Risopatron
+RS46,RS46,bulk_soil,Risopatron
+RS47,RS47,bulk_soil,Risopatron
+RS48,RS48,bulk_soil,Risopatron
+RS49,RS49,bulk_soil,Risopatron
+RS5,RS5,da,Risopatron
+RS50,RS50,bulk_soil,Risopatron
+RS51,RS51,da,Risopatron
+RS52,RS52,da,Risopatron
+RS53,RS53,da,Risopatron
+RS54,RS54,da,Risopatron
+RS55,RS55,da,Risopatron
+RS56,RS56,bulk_soil,Risopatron
+RS57,RS57,bulk_soil,Risopatron
+RS58,RS58,bulk_soil,Risopatron
+RS59,RS59,bulk_soil,Risopatron
+RS6,RS6,bulk_soil,Risopatron
+RS60,RS60,bulk_soil,Risopatron
+RS61,RS61,bulk_soil,Risopatron
+RS62,RS62,bulk_soil,Risopatron
+RS63,RS63,bulk_soil,Risopatron
+RS7,RS7,bulk_soil,Risopatron
+RS8,RS8,bulk_soil,Risopatron
+RS9,RS9,bulk_soil,Risopatron
+RSW1,RSW1,sea_water_control,Risopatron
+RSW2,RSW2,sea_water_control,Risopatron
+RSW3,RSW3,sea_water_control,Risopatron
+RSW4,RSW4,sea_water_control,Risopatron
+SGA1,SGA1,air,San Gregorio
+SGA2,SGA2,air,San Gregorio
+SGA3,SGA3,air,San Gregorio
+SGA4,SGA4,air,San Gregorio
+SGA5,SGA5,coriolis_control,San Gregorio
+SGA6,SGA6,deposition_control,San Gregorio
+SGS1,SGS1,bulk_soil,San Gregorio
+SGS2,SGS2,bulk_soil,San Gregorio
+SGS3,SGS3,bulk_soil,San Gregorio
+SGS4,SGS4,bulk_soil,San Gregorio
+YA1,YA1,air,Yelcho
+YA10,YA10,air,Yelcho
+YA11,YA11,air,Yelcho
+YA12,YA12,air,Yelcho
+YA13,YA13,air,Yelcho
+YA14,YA14,air,Yelcho
+YA15,YA15,air,Yelcho
+YA16,YA16,air,Yelcho
+YA17,YA17,air,Yelcho
+YA18,YA18,air,Yelcho
+YA19,YA19,air,Yelcho
+YA2,YA2,air,Yelcho
+YA20,YA20,air,Yelcho
+YA21,YA21,air,Yelcho
+YA22,YA22,air,Yelcho
+YA23,YA23,air,Yelcho
+YA24,YA24,air,Yelcho
+YA25,YA25,air,Yelcho
+YA26,YA26,air,Yelcho
+YA27,YA27,air,Yelcho
+YA28,YA28,air,Yelcho
+YA29,YA29,air,Yelcho
+YA3,YA3,air,Yelcho
+YA30,YA30,air,Yelcho
+YA31,YA31,buffer_control,Yelcho
+YA32,YA32,coriolis_control,Yelcho
+YA33,YA33,coriolis_control,Yelcho
+YA34,YA34,coriolis_control,Yelcho
+YA35,YA35,deposition_control,Yelcho
+YA36,YA36,deposition_control,Yelcho
+YA37,YA37,deposition_control,Yelcho
+YA4,YA4,air,Yelcho
+YA5,YA5,air,Yelcho
+YA6,YA6,air,Yelcho
+YA7,YA7,air,Yelcho
+YA8,YA8,air,Yelcho
+YA9,YA9,air,Yelcho
+YS1,YS1,sediment,Yelcho
+YS2,YS2,sediment,Yelcho
+YS3,YS3,sediment,Yelcho
+YS4,YS4,sediment,Yelcho
+YS5,YS5,sediment,Yelcho
+YS6,YS6,sediment,Yelcho
