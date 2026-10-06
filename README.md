@@ -1,5 +1,7 @@
 # Atmospheric river-driven delivery of Patagonian bioaerosol to the Antarctic Peninsula: analysis code
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23189651.svg)](https://doi.org/10.5281/zenodo.23189651)
+
 ## Overview
 
 This repository holds the analysis code for a study of airborne microbial transport from southern Patagonia to the
@@ -161,4 +163,4 @@ MIT. See `LICENSE`.
 
 Castro-Nallar E, Guajardo-Leiva S, Poblete-Castro I, Bozkurt D, Opazo C, Molina-Montenegro M, Díez B, Huneeus N,
 Mailler S, Lapere R, Galbán-Malagón C. Atmospheric river-driven delivery of Patagonian bioaerosol to the Antarctic
-Peninsula. In preparation.
+Peninsula. In preparation. Code archived on Zenodo: https://doi.org/10.5281/zenodo.23189651 (v1.0: https://doi.org/10.5281/zenodo.23189652).
