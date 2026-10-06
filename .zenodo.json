@@ -68,12 +68,5 @@
     "16S rRNA",
     "long-range transport",
     "metagenomics"
-  ],
-  "related_identifiers": [
-    {
-      "identifier": "PRJNA1540148",
-      "relation": "isSupplementTo",
-      "scheme": "other"
-    }
   ]
 }
