@@ -14,7 +14,10 @@
 # libraries get the standard trim. fastp detects paired-end adapters and enables poly-G trimming for two-color
 # chemistry; quality filtering uses fastp defaults.
 # Set PROJECT to the shotgun project directory (default: current directory) and FASTQ_ROOT to the raw read folder.
+# The original run held 75 libraries; the 15 air libraries deposited in the SRA (get_raw_data.sh shotgun) are run with
+# N_EXPECTED=15 and a matching array range.
 # Run    : sbatch 03_fastp_array.sh
+#          N_EXPECTED=15 sbatch --array=0-14%8 --export=ALL 03_fastp_array.sh   (SRA download, air libraries only)
 
 set -euo pipefail
 
@@ -26,8 +29,9 @@ mkdir -p "$TRIMDIR" "$REPDIR" logs
 
 # --- Resolve this task's sample ---------------------------------------------
 mapfile -t R1_FILES < <(find "$FASTQ_ROOT" -name '*_R1_001.fastq.gz' | sort)
-if [[ ${#R1_FILES[@]} -ne 75 ]]; then
-  echo "ERROR: expected 75 R1 files, found ${#R1_FILES[@]}" >&2; exit 1
+N_EXPECTED="${N_EXPECTED:-75}"
+if [[ ${#R1_FILES[@]} -ne $N_EXPECTED ]]; then
+  echo "ERROR: expected $N_EXPECTED R1 files, found ${#R1_FILES[@]}" >&2; exit 1
 fi
 R1="${R1_FILES[$SLURM_ARRAY_TASK_ID]}"
 R2="${R1/_R1_001.fastq.gz/_R2_001.fastq.gz}"

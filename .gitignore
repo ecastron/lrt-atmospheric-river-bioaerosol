@@ -44,3 +44,6 @@ __pycache__/
 # CHIMERE pDUST plot and the series recovered from it (inputs for Supplementary Figure 7)
 !atmospheric_simulations/CHIMERE/ts_Risopatron_pDUST.pdf
 !atmospheric_simulations/CHIMERE/pdust_risopatron_from_plot.csv
+
+# SRA run manifest (input for get_raw_data.sh)
+!data/sra_run_manifest.tsv

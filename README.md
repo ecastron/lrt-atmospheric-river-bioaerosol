@@ -34,6 +34,18 @@ Each script starts with a header that lists its purpose, inputs, outputs and the
 Reference databases are downloaded separately: SILVA 138.1 DADA2 training and species files, DADA2 EUK SSU v1.9,
 the UNITE general FASTA release (19.02.2025) and FAPROTAX 1.2.12.
 
+## Raw data
+
+Raw reads are in the NCBI Sequence Read Archive under BioProject PRJNA1540148 (609 runs: 16S, 18S and ITS amplicons
+for 198 samples, and 15 air shotgun metagenomes). `data/sra_run_manifest.tsv` lists every run with its BioSample,
+sample, marker, destination folder and original FASTQ file names. `get_raw_data.sh` downloads the runs with
+sra-tools and writes them under their original names to the folders below:
+
+```
+bash get_raw_data.sh              # all markers
+bash get_raw_data.sh 16S ITS      # selected markers (16S, 18S, ITS, shotgun)
+```
+
 ## Expected directory layout
 
 Scripts are run from the repository root unless their header says otherwise. The repository already contains the
@@ -42,8 +54,10 @@ metadata files and the intermediate tables. Add the remaining inputs as follows:
 ```
 ./
   DADA2_EUK_SSU_v1.9.fasta                  18S reference
-  raw_data/16S/                             demultiplexed 16S FASTQ files (PRJNA1540148)
-  18S/data/                                 demultiplexed 18S FASTQ files (PRJNA1540148)
+  raw_data/16S/                             demultiplexed 16S FASTQ files (PRJNA1540148; get_raw_data.sh)
+  raw_data/ITS/                             demultiplexed ITS FASTQ files (PRJNA1540148; get_raw_data.sh)
+  18S/data/                                 demultiplexed 18S FASTQ files (PRJNA1540148; get_raw_data.sh)
+  shotgun_metagenomics/raw_reads/           air shotgun FASTQ files (PRJNA1540148; get_raw_data.sh)
   16S/
     silva_nr99_v138.1_train_set.fa, silva_species_assignment_v138.1.fa
     ACEDATA/Allfastq/                       Malard et al. 2022 FASTQ files (PRJNA697829, uncompressed)
@@ -86,7 +100,8 @@ their output there. Copy `ps_merged_withTree_noorg_01OCT26.RDS` into the folder 
 
 ### ITS (forward reads only)
 
-1. Trim the conserved small-subunit primer region from R1 with cutadapt 5.2 into `ITS/trimmed/`.
+1. Trim the conserved small-subunit primer region from the R1 files in `raw_data/ITS/` with cutadapt 5.2 into
+   `ITS/trimmed/`.
 2. `ITS/dada2_its_R1only.R`
 3. `ITS/its_r1only_decontam_29MAY26.R`
 4. `ITS/its_r1only_assigntax_29MAY26.R`
@@ -97,7 +112,9 @@ their output there. Copy `ps_merged_withTree_noorg_01OCT26.RDS` into the folder 
 
 The scripts in `shotgun_metagenomics/hpc_scripts/` run on a Slurm cluster in numeric order (fastp, clumpify, SPAdes,
 Prodigal, marker search, read recruitment for air and for the Byers Peninsula soil comparator, MetaPathways LCA).
-Set `PROJECT` or `PROJ` to the project directory (default: current directory) and `FASTQ_ROOT` to the raw read folder.
+Set `PROJECT` or `PROJ` to the project directory (default: current directory) and `FASTQ_ROOT` to the raw read folder
+(`shotgun_metagenomics/raw_reads/` after `get_raw_data.sh shotgun`). The sequencing run held 75 libraries, of which
+the 15 air libraries are deposited; run `03_fastp_array.sh` on them with `N_EXPECTED=15` and `--array=0-14%8`.
 The CoxL classification pipeline is in `shotgun_metagenomics/data/curation_evidence/coxL_reanalysis_01OCT26/` and
 has its own README. The R scripts in `shotgun_metagenomics/scripts/` run locally on the recruitment tables.
 
