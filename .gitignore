@@ -50,3 +50,7 @@ __pycache__/
 
 # Marker protein database (Additional file 3; archived with each release)
 !data/marker_database/*
+
+# NCBI submission sheets (inputs for make_Additional_file_3_mixs_05NOV26.py)
+!data/biosample_attributes_06OCT26.tsv
+!data/biosample_accessions_SAMN_06OCT26.tsv

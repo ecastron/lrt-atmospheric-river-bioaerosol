@@ -28,6 +28,7 @@ Each script starts with a header that lists its purpose, inputs, outputs and the
 | Southern Ocean air 16S reads (Malard et al. 2022) | NCBI SRA, BioProject PRJNA697829 |
 | Bacterial and fungal phyloseq objects | Supplementary Data 1 of the paper |
 | Curated atmospheric marker protein database | This repository, `data/marker_database/` (Additional file 3 of the paper) |
+| BioSample attributes and accessions submitted to NCBI | This repository, `data/biosample_attributes_06OCT26.tsv` and `data/biosample_accessions_SAMN_06OCT26.tsv` |
 | Sample metadata and small intermediate tables (decontam results, FAPROTAX output, shotgun marker counts, CoxL candidates and tree) | This repository, at the paths the scripts read |
 | Risopatron weather-station record | Not included |
 
@@ -150,12 +151,29 @@ has its own README. The R scripts in `shotgun_metagenomics/scripts/` run locally
 | Supplementary Figure 7 | `atmospheric_simulations/CHIMERE/extract_pdust_risopatron.py` (recovers the pDUST series at Risopatron from the CHIMERE time-series plot `ts_Risopatron_pDUST.pdf`; the model runs themselves are not in this repository), then `atmospheric_simulations/CHIMERE/figureS7_pdust_risopatron.R` |
 | Supplementary Figure 8 | `16S/decontam_controls_11MAY26.R`, `16S/decontam_betaNTI_01OCT26.R`, `16S/figureS8_decontam_checks_01OCT26.R` |
 | Supplementary Figure 9 | `16S/figureS9_fungi_source_29SEP26.R` |
+| Supplementary Figure 10 | HYSPLIT release-height sensitivity runs (separate model runs, not in this repository) |
 | Supplementary Table 1 | `16S/patagonia_transfer_sweep_02OCT26.R`, `16S/supp_table1_patagonia_shared_asvs_02OCT26.py` |
+| Supplementary Table 2 | `supplementary_material/make_Supplementary_Table_2_21OCT26.py` |
+| Supplementary PDF (Additional file 1) | `supplementary_material/build_Additional_file_1_05NOV26.py` |
+| MIxS sample metadata (Additional file 3) | `supplementary_material/make_Additional_file_3_mixs_05NOV26.py` |
 
 `16S/palettes.R` defines the colors used by all R figure scripts. The fungal AR-event panel is drawn by
 `16S/figure5_ar_event_fungi_r1only_29MAY26.R`, and `16S/ar_patagonia_attribution_v3_01OCT26.R` and
 `16S/decontam_AR_arrival_crosscheck_01OCT26.R` provide the source attribution of AR-arrival taxa and its
 contamination check.
+
+## Supplementary material
+
+`supplementary_material/` holds the scripts that build the supplementary deliverables:
+
+- `build_Additional_file_1_05NOV26.py` typesets the supplementary figures and tables into one PDF
+  (Fig. S1 to S10, Table S1 and S2), reading the legends from
+  `Supplementary_Figure_Legends_21OCT26.docx`. The figure PDFs and table workbooks are the
+  supplementary deliverables themselves and are not duplicated here; place them beside the script
+  to rebuild the PDF. Requires xelatex.
+- `make_Supplementary_Table_2_21OCT26.py` builds the PERMDISP and pairwise PERMANOVA table.
+- `make_Additional_file_3_mixs_05NOV26.py` derives the MIxS MIMARKS survey metadata sheet from the
+  NCBI BioSample sheets in `data/`. ENVO terms were verified against the EBI Ontology Lookup Service.
 
 ## Software
 
