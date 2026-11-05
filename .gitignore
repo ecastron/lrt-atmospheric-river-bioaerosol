@@ -47,3 +47,6 @@ __pycache__/
 
 # SRA run manifest (input for get_raw_data.sh)
 !data/sra_run_manifest.tsv
+
+# Marker protein database (Additional file 3; archived with each release)
+!data/marker_database/*

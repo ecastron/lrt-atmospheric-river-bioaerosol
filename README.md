@@ -27,9 +27,16 @@ Each script starts with a header that lists its purpose, inputs, outputs and the
 | Raw amplicon (16S, ITS, 18S) and shotgun reads | NCBI SRA, BioProject PRJNA1540148 |
 | Southern Ocean air 16S reads (Malard et al. 2022) | NCBI SRA, BioProject PRJNA697829 |
 | Bacterial and fungal phyloseq objects | Supplementary Data 1 of the paper |
-| Curated atmospheric marker protein database | Supplementary Data 2 of the paper |
+| Curated atmospheric marker protein database | This repository, `data/marker_database/` (Additional file 3 of the paper) |
 | Sample metadata and small intermediate tables (decontam results, FAPROTAX output, shotgun marker counts, CoxL candidates and tree) | This repository, at the paths the scripts read |
 | Risopatron weather-station record | Not included |
+
+### Marker protein database
+
+`data/marker_database/` holds the reference searched with DIAMOND blastx for read-level functional profiling of the
+air metagenomes: 211,249 protein sequences covering 106 markers, with per-marker sources and categories, median
+protein lengths used for length normalization, the curation decisions and their evidence, and the Swiss-Prot
+supplement annotation. See `data/marker_database/README.txt` for the file-by-file description.
 
 Reference databases are downloaded separately: SILVA 138.1 DADA2 training and species files, DADA2 EUK SSU v1.9,
 the UNITE general FASTA release (19.02.2025) and FAPROTAX 1.2.12.
